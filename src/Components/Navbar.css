@@ -1,0 +1,141 @@
+
+a{
+    text-decoration:none;
+    transition: .2s;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(73,71,71);
+    transform: scale(1.02);
+}
+div>a{
+    margin-right: 2vw;
+    font-weight: bold;
+}
+
+
+
+
+.Vid{
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.Vid:hover{
+    transform: scale(0.9);
+}
+.underLine{
+    transition: 10s;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.underLine1{
+    /* color: rgb(112,108,108); */
+    transition: 10s;
+    display: inline-block;
+    position: relative;
+}
+.underLine:after, .underLine1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #646464;
+    transform-origin: bottom-right;
+    transition: transform 0.75s ease-in-out;
+
+}
+
+.underLine:hover:after{
+    transform: scaleX(1);
+}
+.underLine1:hover:after{
+    transform: scaleX(0.9);
+    transform-origin: bottom-left;
+}
+.underLine2{
+    /* color: rgb(112,108,108); */
+    color: white;
+    transition: 10s;
+    display: inline-block;
+    position: relative;
+}
+.underLine2:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: botton-right;
+    transition: transform 0.25s ease-in-out;
+}
+.underLine2:hover:after {
+    transform: scaleX(.9);
+    transform-origin: bottom left;
+  }
+
+  /* //mobile css */
+
+.logodiv{
+    width: 85%;
+    margin: auto;
+}
+
+  .Top_Area_Responsive{
+   display: flex;
+   padding: 5%;
+   justify-content: space-between;
+   background-color: #fff;
+  }
+
+
+  .Top_Area_Text_Left_Responsive{
+ display: flex;
+ flex-direction: column;
+ /* margin-top: 2vh; */
+  }
+  .divvid{
+    display: flex;
+    width: 80%; 
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .skills{
+    width: 80%;
+    margin: auto;
+  }
+
+  
+  .contact{
+    width: 80%;
+    margin: auto;
+  }
+
+
+
+
+ 
+
+
+
+  @media all and (min-width: 481px) and (max-width: 785px) {
+    .nav{
+        display: none;
+    }
+  }
+
+  @media all and (min-width: 321px) and (max-width: 480px) {
+    .nav{
+        display: none;
+    }
+  }

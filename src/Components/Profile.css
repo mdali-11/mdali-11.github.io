@@ -1,0 +1,53 @@
+.title {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  button {
+    border-radius: 0.5rem;
+  }
+  /* border: 2px solid black; */
+  .titlebox {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .top {
+    padding: 20px;
+    font-size: 22px;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    background-color: #fafbfc;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+  }
+  .skill {
+    font-size: 14px;
+    width: 120px;
+    height: 35px;
+    padding: 0px 5px;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+  .skillset {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
