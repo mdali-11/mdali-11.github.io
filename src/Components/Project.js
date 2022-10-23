@@ -1,17 +1,20 @@
 import { Button } from "@material-ui/core"
 import { Typography } from "@material-ui/core"
-import GithubCalender from "react-github-calender"
+import Calendar from "./Calender";
+
 export default function Project() {
 
+  
     return <div>
-    <GithubCalender username="mdali-11" />
+    <Calendar />
+    {/* <Githubcalendar username="mdali-11" /> */}
     <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mdali-11&show_icons=true&locale=en&layout=compact&theme=dracula" alt="mdali-11" /></p>
 
 <p>&nbsp;<img align="center" margin-Top="5px" src="https://github-readme-stats.vercel.app/api?username=mdali-11&show_icons=true&locale=en&theme=dracula" alt="mdali-11" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdali-11&theme=dracula" alt="mdali-11" /></p>
 
-<a href="https://github.com/mdali-11/github-readme-activity-graph"><img alt="Pandit Gangadhar's Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=mdali-11&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
+<a href="https://github.com/mdali-11/github-readme-activity-graph"><img alt="Md Ali Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=mdali-11&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
 
 
 <p align="center">
