@@ -1,37 +1,19 @@
-.about_cont{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    gap:150px;
-}
-
-.about__contact a{
-  background-color: blue;
-  color: whitesmoke;
-}
-.about_details{
-    font-size: 45px;
-}
-.typo_div{
-    display: flex;
+.about {
     flex-direction: column;
-    justify-content: center;align-items: center;
-    gap: 50px;
-}
-.about_cont img{
-    width: 90%;
-    border-radius: 55%;
-}
-
-
+    margin-top: 3em;
+  }
    .mobileHead{
     font-size: 45px;
     margin-bottom: -15px;
    }
   .about__name {
     color: var(--clr-primary);
+  }
+  .about > :nth-child(2) {
+    margin-top: 1.2em;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--clr-fg-alt);
   }
   
   .about__desc {
@@ -66,8 +48,18 @@
     color: var(--clr-bg);
   }
   
-   
   @media (max-width: 600px) {
-
-
+    .mobileHead{
+      align-content: center;
+    }
+    .app .about {
+      align-items: flex-start;
+      margin-top: 2em;
+      justify-content: center;
+      align-items: center;
+    }
+    .about > :nth-child(2) {
+      font-size: 1.5rem;
+    }
   }
+  

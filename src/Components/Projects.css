@@ -1,0 +1,8 @@
+
+.carousel{
+    width: 70%;    margin: auto;
+    display: grid;
+    justify-content: space-around;
+    gap: 100px;
+    grid-template-columns: repeat(2,1fr);
+}

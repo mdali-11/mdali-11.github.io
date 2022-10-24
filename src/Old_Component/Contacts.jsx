@@ -3,14 +3,16 @@ import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
+// import { ThemeContext } from "../../Context/theme";
+
 import { FaLinkedin } from "react-icons/fa";
 export const Contact = () => {
+//   const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
-    <section id="#contact">
       <div className="section">
-        <h2 style={{textAlign:"center"}} className="section__title">
+        <h2 style={{textAlign:"center"}} className="section__title" data-aos="fade-right">
           Get in <span className="different">Touch</span>
         </h2>
         <div className="contactMain">
@@ -64,7 +66,6 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      </section>
     </>
   );
 };

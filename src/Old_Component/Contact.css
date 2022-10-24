@@ -14,21 +14,20 @@
   .contactcontainer svg {
     font-size: 3em;
     transition: all 0.5s ease-in-out 0s;
-    /* color: blue; */
-    color:blue;
-    border: 3px solid blue;
+    color: var(--clr-primary);
+    border: 3px solid var(--clr-primary);
     padding: 5px;
     border-radius: 20%;
   }
   .mailNumber .email {
     font-size: 2em;
     transition: all 0.5s ease-in-out 0s;
-    color: blue;
+    color: var(--clr-primary);
   }
   .mailNumber .phone{
     font-size: 1.5em;
     transition: all 0.5s ease-in-out 0s;
-    color: blue;
+    color: var(--clr-primary);
   }
   
   .mailNumber > div{
