@@ -1,6 +1,9 @@
 .header {
     padding: 0px 10px;
-    width: 100%;
+    width: 100vw;
+    position: fixed;
+    top: 0;left: 0;
+    z-index: 5;
     display: flex;
     /* background: linear-gradient(#6616fc, #f394d3); */
     background-color: black;
@@ -8,9 +11,6 @@
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
   }
   .logo {
     width: 45px;
