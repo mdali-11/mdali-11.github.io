@@ -7,7 +7,7 @@ export default function Projects() {
         // <!-- project section start -->
          <div className="project_div">
         <section className="project" id="#projects">
-    <h1 align="center" style={{fontSize:"40px"}}>Project</h1>
+    <h1 align="center" className="proj_head">Project</h1>
             <div className="carousel">
                 <ProjectCard src={"https://github.com/mdali-11/weather-app/raw/main/weather/pics/Screenshot%20(13131).png"} title={"Weather App"} 
 desc1={"Individual Project - Built a fully responsive weather app using weather API where you can search for any location"}

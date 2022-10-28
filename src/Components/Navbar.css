@@ -229,7 +229,7 @@ div>a{
     }
 
   .Top_Area_Responsive{
-    height: 100vh;
+    height: 60vh;
          flex-direction: column;
          align-items: center;
          justify-content: space-between;
@@ -257,7 +257,7 @@ div>a{
     
     }
     .Top_Area_Responsive{
-        height:100vh;
+        height:60vh;
              flex-direction: column;
              align-items: center;
              justify-content: space-between;

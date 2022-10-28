@@ -1,8 +1,20 @@
 
+.project_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj_head{
+    font-size: 40px;
+    margin: 70px 0px;
+}
 .carousel{
-    width: 70%;    margin: auto;
+    width: 70%;
+    margin: auto;
     display: grid;
     justify-content: space-around;
+    align-items: center;
     gap: 100px;
     grid-template-columns: repeat(2,1fr);
 }
