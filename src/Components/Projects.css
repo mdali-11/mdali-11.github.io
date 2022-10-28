@@ -6,3 +6,20 @@
     gap: 100px;
     grid-template-columns: repeat(2,1fr);
 }
+
+  
+@media all and (min-width: 480px) and (max-width: 780px) {
+
+    .carousel{
+        grid-template-columns: 1fr;
+    }
+}
+    
+    
+    @media all and (min-width: 321px) and (max-width: 480px) {
+
+        .carousel{
+            grid-template-columns: 1fr;
+        }
+    
+    }

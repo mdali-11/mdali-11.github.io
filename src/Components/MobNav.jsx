@@ -42,19 +42,33 @@ export default function MobNav() {
                     }}>
                         <a href="#about">ABOUT</a>
                     </li>
-                    <li className="option" onClick={closeMobileMenu}>
+                    <li className="option" onClick={()=>{
+                        toggleNavList("#contact");
+                        closeMobileMenu()
+                    }}>
                         <a href="#contact">CONTACT</a>
                     </li>
-                    <li className="option" onClick={closeMobileMenu}>
+                    <li className="option" onClick={()=>{
+                        toggleNavList("#projects");
+                        closeMobileMenu()
+                    }}>
                         <a href="#projects">PROJECTS</a>
                     </li>
-                    <li className="option" onClick={closeMobileMenu}>
+                    <li className="option" onClick={()=>{
+                        toggleNavList("#skills");
+                        closeMobileMenu()
+                    }}>
                         <a href="#skills">SKILLS</a>
                     </li>
-                    <li className="option mobile-option" onClick={closeMobileMenu}>
-                        <a href="/" className="sign-up">
+                    <li className="option mobile-option" onClick={()=>{
+                        toggleNavList("/");
+                        closeMobileMenu()
+                    }}>
+                        <button onClick={()=> {
+                                            window.open("https://drive.google.com/file/d/1XfEAY-Cf94WcIvC9955EMD1NgFCh0AwA/view?usp=share_link")
+                                        }} className="sign-up">
                             RESUME
-                        </a>
+                        </button>
                     </li>
                 </ul>
             </div>

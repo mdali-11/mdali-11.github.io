@@ -4,8 +4,8 @@ img{
 }
 
 .gitcont{
+    /* border: 10px solid white; */
     padding: 70px 0px;
-    margin-top: 100px;
     width: 100%;
     background-color: black;
     color: whitesmoke;
@@ -20,3 +20,26 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+   
+@media all and (min-width: 480px) and (max-width: 780px) {
+  
+    .gitcont{
+        margin-top: 500px;
+    }
+}
+
+
+    
+    
+    @media all and (min-width: 321px) and (max-width: 480px) {
+
+        .gitcont{
+            margin-top: 500px;
+        }
+    
+    }
+

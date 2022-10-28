@@ -1,6 +1,6 @@
 
   .techsection {
-    width: 100%;
+    width: 100vw;
     text-align: center;
     background-color: var(--clr-bg);
     height: 50vh;
@@ -36,7 +36,7 @@
     /* height: 50%;
     width: 50%; */
     font-size: 8vh;
-    color: var(--clr-primary);
+    color: blue;
   }
   .techsection > div > h5 {
     position: relative;
@@ -44,15 +44,31 @@
     background-color: transparent;
   }
   
-  @media (max-width: 600px) {
-    .techsection {
-      height: 120vh;
-    }
+
+     
+@media all and (min-width: 480px) and (max-width: 780px) {
+  
+  .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  }
+}
+
+
+  
+  
+  @media all and (min-width: 321px) and (max-width: 480px) {
+
     .techsection > div {
       width: 40%;
       margin-right: 5%;
       margin-bottom: 2%;
       height: 18vh;
     }
+  
   }
+    
+  
   

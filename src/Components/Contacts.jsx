@@ -43,6 +43,7 @@ export const Contact = () => {
               <BsFillTelephoneFill className="phone" />
             </a>
           </div>
+          <div className="contact_btm">
           <div className="mailNumber" data-aos="fade-right">
             <div>
               <span>
@@ -50,7 +51,6 @@ export const Contact = () => {
               </span>
               <span>
                 <p>mdali91935@gmail.com</p>
-
               </span>
             </div>
             <div className="iconsCont">
@@ -61,6 +61,7 @@ export const Contact = () => {
                 <p>+91 9007977270</p>
               </span>
             </div>
+          </div>
           </div>
         </div>
       </div>

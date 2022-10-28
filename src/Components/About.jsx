@@ -12,9 +12,8 @@ export default function About() {
 
 
     return (
-        <div style={{width:"100vw",height:"100vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}
-         section id="#about">
-    <h1 align="center" style={{fontSize:"40px",marginTop:"150px"}}>About Me</h1>
+        <section id="#about"  className="about_div">
+    <h1 className="abt_head">About Me</h1>
             <div className="about_cont">
                 <div>
                     <img src="https://media-exp1.licdn.com/dms/image/D4D03AQHMpBpjMEHkEw/profile-displayphoto-shrink_400_400/0/1666422657425?e=1671667200&v=beta&t=mUeWebSvlYy9zJGCT4WHvD6gal3Ht2V6rG-Iv16-X-I" alt="pp" />
@@ -102,7 +101,7 @@ export default function About() {
                     }}>Resume</Button>
                 </div>
             </div>
-            </div>
+            </section>
 
 
     )

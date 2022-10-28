@@ -5,8 +5,7 @@ export default function Projects() {
 
     return (
         // <!-- project section start -->
-        
-         <div style={{width:"100vw",height:"100vh",display:"flex",justifyContent:"center",alignItems:"center"}}>
+         <div className="project_div">
         <section className="project" id="#projects">
     <h1 align="center" style={{fontSize:"40px"}}>Project</h1>
             <div className="carousel">

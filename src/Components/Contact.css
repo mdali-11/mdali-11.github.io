@@ -98,10 +98,25 @@
       align-content: center;
       text-align: center;
     }
+
+    .contact_btm{
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap:150px;
+    }
+    .contactcontainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 50px;
+    }
     .contactMain{
       width: 100%;
       display: flex;
       flex-direction: column;
+      gap: 50px;
       margin: 0px;
     }
     .iconsCont{
