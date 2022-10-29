@@ -169,7 +169,13 @@ div>a{
    padding: 5%;
    align-items: center;
    justify-content: space-between;
-   background-color: #E4E6EB;
+
+  }
+  .home{
+   /* background-color: #E4E6EB; */
+   background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
+   background-repeat: no-repeat;
+   background-size: cover;
   }
 
 

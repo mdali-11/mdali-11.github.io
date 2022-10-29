@@ -3,6 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+        /* background-color: #E4E6EB; */
+        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 .proj_head{
