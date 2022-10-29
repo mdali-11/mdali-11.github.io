@@ -7,8 +7,11 @@ img{
     /* border: 10px solid white; */
     padding: 70px 0px;
     width: 100%;
-    background-color: black;
-    color: whitesmoke;
+    /* background-color: black; */
+    /* color: whitesmoke; */
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .git{

@@ -26,7 +26,7 @@ import ReactToolTip from "react-tooltip"
                 <Githubcalendar 
                 style={{margin:"auto"}} 
                     username="mdali-11"
-                    color="purple"
+                    color="black"
                     transformData={selectLastHalfYear}
                     blockSize={20}
                     fontSize={20}
