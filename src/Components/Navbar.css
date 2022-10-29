@@ -172,6 +172,8 @@ div>a{
 
   }
   .home{
+    width: 100vw;
+    height: 100vh;
    /* background-color: #E4E6EB; */
    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
    background-repeat: no-repeat;
@@ -269,7 +271,6 @@ div>a{
              flex-direction: column;
              align-items: center;
              justify-content: space-between;
-             margin-bottom: 100px;
     
         }
   }
