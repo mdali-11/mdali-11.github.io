@@ -36,6 +36,12 @@ export default function MobNav() {
                         <strong style={{ fontSize: "1.8rem" }}>Portfolio</strong>
                     </div>
                 <ul className={click ? "nav-options active" : "nav-options"}>
+                <li className="option" onClick={()=>{
+                        toggleNavList("#home");
+                        closeMobileMenu()
+                    }}>
+                        <a href="#about">HOME</a>
+                    </li>
                     <li className="option" onClick={()=>{
                         toggleNavList("#about");
                         closeMobileMenu()

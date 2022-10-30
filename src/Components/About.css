@@ -136,12 +136,10 @@ font-size:40px;
     @media all and (min-width: 321px) and (max-width: 480px) {
 
       .about_div{
-        margin-top: 700px;
         height: 100vh;
          display: flex;
          flex-direction: column;
         align-items: center;
-    margin-bottom: 800px;
         /* border: 15px solid red; */
           }
     
