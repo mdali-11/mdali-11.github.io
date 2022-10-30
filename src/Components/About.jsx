@@ -28,13 +28,7 @@ export default function About() {
                             </h1>
                         </div>
                         <div className="abt_desc">
-                        <Typography style={{
-                            width: "45vw",
-                            fontSize: "22px",
-                            marginTop: "10px",
-                            textAlign: "left",
-                            fontWeight: "lighter"
-                        }}
+                        <Typography className="desc_box"
                             variant="subtitle1"
                             color="initial">
                             I am from Kolkata, West Bengal.

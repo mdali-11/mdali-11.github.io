@@ -162,7 +162,7 @@ div>a{
 
   .Top_Area_Responsive{
     width: 80%;
-    height: 85vh;
+    height: 90vh;
     margin: auto;
     /* border: 5px solid black; */
    display: flex;
@@ -173,11 +173,14 @@ div>a{
   }
   .home{
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    /* background-color: #FFF7FE; */
+    background-image: linear-gradient(to right,#83A1D9 , #FFFFFF);
+
    /* background-color: #E4E6EB; */
-   background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
+   /* background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
   }
 
 
@@ -192,7 +195,10 @@ div>a{
     justify-content: center;
     align-items: center;
   }
-
+  
+  .Vid{
+    width: 100%;
+  }
  
 
   .skills{
