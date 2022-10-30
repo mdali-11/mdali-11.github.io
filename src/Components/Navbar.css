@@ -67,11 +67,16 @@ div>a{
     display: flex;
     justify-content: flex-start;
 }
+
+#btn:hover{
+    transform: scale(.95);
+}
 #btn{
      background: "black";      
      color: "white"; 
      font-weight: "bolder";
-      font-size: "15px"
+      font-size: "15px";
+      cursor: pointer;
 }
 
 

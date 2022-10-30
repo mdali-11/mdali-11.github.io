@@ -71,7 +71,7 @@ export default function MobNav() {
                         closeMobileMenu()
                     }}>
                         <button onClick={()=> {
-                                            window.open("https://drive.google.com/file/d/1XfEAY-Cf94WcIvC9955EMD1NgFCh0AwA/view?usp=share_link")
+                                            window.open("https://drive.google.com/file/d/1jITRP7CajZkEpzvlPwDDujLo6oMoFrIC/view?usp=share_link")
                                         }} className="sign-up">
                             RESUME
                         </button>
