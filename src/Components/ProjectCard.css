@@ -66,3 +66,31 @@ button{
     padding: 12px 25px;
     border-radius: 20px;
 }
+
+
+  
+@media all and (min-width: 480px) and (max-width: 780px) {
+  
+  
+}
+    
+    
+    @media all and (min-width: 321px) and (max-width: 480px) {
+
+        .box .text{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .repo-links{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+       
+    
+    }
