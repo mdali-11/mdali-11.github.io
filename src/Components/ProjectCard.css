@@ -1,9 +1,12 @@
 
 .box{
+    width: 100%;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
     /* border: 3px solid black; */
     background-color: #fff;
     color: black;
@@ -22,8 +25,19 @@ img{
 }
 
 .desc{
+    width: 80%;
+    height: 15%;
+    margin: auto;
     font-size: 1rem;
     font-weight: 500;
+    /* border: 5px solid red; */
+
+}
+.right_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
 }
 
 .repo-links{
@@ -35,22 +49,35 @@ img{
 }
 
 .abt_proj{
-    width:90%;
-    margin: auto;
+    /* width:90%;
+    margin: auto; */
     margin-top: 25px;
-    text-align: center;
-    margin-bottom: 10px;
+    /* text-align: center;
+    margin-bottom: 10px; */
+}
+.text{
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    /* border: 5px solid red; */
 }
 
 .techStack{
-    font-size: 25px;
+
+    font-size: 20px;
     font-weight: bold;
     color: rgb(232, 26, 60);
+
 }
 
 .techtext{
-    font-size: 25px;
+    width: 80%;
+    height: 25%;
+    margin: auto;
+    font-size: 20px;
     font-weight: bold;
+    /* border: 5px solid red; */
+
 }
 
 a{

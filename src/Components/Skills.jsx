@@ -19,7 +19,7 @@ import { BsBootstrap, BsWordpress } from "react-icons/bs";
 export default function Skills(){
 
     return (
-        <>   <div style={{width:"100vw",height:"70vh",marginTop:"100px"}}>
+        <>   <div style={{width:"100vw",height:"100vh",marginTop:"100px"}}>
             <section id="#skills">
             <h1 align="center" style={{fontSize:"40px"}}>Skills</h1>
             <div className="techsection">

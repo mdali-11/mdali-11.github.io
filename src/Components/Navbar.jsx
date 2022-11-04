@@ -70,7 +70,7 @@ export default function Navbar() {
                             </a>
                             <a href="/" className="underLine2">
                                 <Button onClick={()=> {
-                                            window.open("https://drive.google.com/file/d/1jITRP7CajZkEpzvlPwDDujLo6oMoFrIC/view?usp=share_link")
+                                            window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view")
                                         }}
                                     style={{ color: "black", background: "#F2F0F4", fontSize: "15px", fontWeight: "bold" }}
                                     variant="outlined" color="secondary">
@@ -119,7 +119,7 @@ export default function Navbar() {
                                     <div
                                       className="resume_btn">
                                         <button onClick={()=> {
-                                            window.open("https://drive.google.com/file/d/1jITRP7CajZkEpzvlPwDDujLo6oMoFrIC/view?usp=share_link")
+                                            window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view")
                                         }} variant="contained" id="btn">RESUME</button>
                                     </div>
                                 </div>
