@@ -17,6 +17,7 @@
     height: 45px;
   }
   .logo-nav {
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

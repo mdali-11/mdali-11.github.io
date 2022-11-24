@@ -1,10 +1,12 @@
 import React from "react";
 import "./Contact.css";
-import { VscGithub } from "react-icons/vsc";
+import { VscGithub,  } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin ,FaWhatsapp } from "react-icons/fa";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 export const Contact = () => {
 
   return (
@@ -25,6 +27,13 @@ export const Contact = () => {
               rel="noreferrer"
             >
               <FaLinkedin className="linkedin" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=+919007977270"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaWhatsapp className="linkedin" />
             </a>
             <a
               href="https://github.com/mdali-11/"
@@ -65,7 +74,7 @@ export const Contact = () => {
           </div>
           </div>
         </div>
-        <FloatingWhatsApp phoneNumber="+91 9007977270" accountName="Md Ali"/>
+        <FloatingWhatsApp phoneNumber="9007977270" accountName="Md Ali" allowClickAway="true"/>
       </div>
       </section>
     </>

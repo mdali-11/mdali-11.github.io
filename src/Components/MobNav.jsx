@@ -33,7 +33,7 @@ export default function MobNav() {
                 <div style={{
                         marginLeft: "2vw",
                     }}>
-                        <strong style={{ fontSize: "1.8rem" }}>Portfolio</strong>
+                        <strong style={{ fontSize: "1.8rem" }}>Md Ali</strong>
                     </div>
                 <ul className={click ? "nav-options active" : "nav-options"}>
                 <li className="option" onClick={()=>{

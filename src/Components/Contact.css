@@ -73,6 +73,12 @@
     display: flex;
     justify-content: space-between;
   }
+  .floating-whatsapp{
+    position: fixed;
+    bottom: 20;
+    right: 20;
+
+  }
   /* .mailNumber:hover {
     font-size: 1.1rem;
     transform: scale(1.04);
