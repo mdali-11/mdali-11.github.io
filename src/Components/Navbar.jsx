@@ -25,7 +25,7 @@ export default function Navbar() {
                         <div style={{
                             marginLeft: "2vw",
                         }}>
-                            <strong style={{ fontSize: "1.8rem" }}>Portfolio</strong>
+                            <strong style={{ fontSize: "1.8rem" }}>Md Ali</strong>
                         </div>
                         <div className="nav_options" >
                             <a href="#home" className="underLine2 hide_on_responsive">
@@ -98,13 +98,13 @@ export default function Navbar() {
                                 >
                                     {/* <div>Featured Projects</div> */}
                                     <div className="cap_name">
-                                        <span className="underLine"
+                                        {/* <span className="underLine"
                                             style={{
                                                 fontFamily: "'Ubuntu',sans-serif",
                                                 fontWeight: "bolder"
                                             }}>
                                             Md Ali
-                                        </span>{" "}
+                                        </span>{" "} */}
                                         <br />{" "}
                                         <span
                                             className="underLine1"

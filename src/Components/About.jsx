@@ -18,7 +18,7 @@ export default function About() {
         </div>
             <div className="about_cont">
                 <div>
-                    <img src="https://media-exp1.licdn.com/dms/image/D4D03AQHMpBpjMEHkEw/profile-displayphoto-shrink_400_400/0/1666422657425?e=1671667200&v=beta&t=mUeWebSvlYy9zJGCT4WHvD6gal3Ht2V6rG-Iv16-X-I" alt="pp" />
+                    <img src="https://media-exp1.licdn.com/dms/image/D4D03AQGXEyInuYJ1Fg/profile-displayphoto-shrink_400_400/0/1668606418838?e=1674691200&v=beta&t=YmVegGsE6dX7AQtybeYPt-y-pJDER1CiGe-G0KVOldQ" alt="pp" />
                 </div>
                 <div className="typo_div">
                    

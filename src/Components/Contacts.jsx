@@ -4,6 +4,7 @@ import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 export const Contact = () => {
 
   return (
@@ -64,6 +65,7 @@ export const Contact = () => {
           </div>
           </div>
         </div>
+        <FloatingWhatsApp phoneNumber="9007977270" accountName="Md Ali"/>
       </div>
       </section>
     </>

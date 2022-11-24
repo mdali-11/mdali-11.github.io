@@ -7,8 +7,15 @@ import { Contact } from "./Components/Contacts";
 import Projects from './Components/Projects';
 import Github from './Components/Github';
 import Skills from './Components/Skills';
+import {useEffect} from "react"
+
+
 
 function App() {
+
+  useEffect(()=>{
+    document.title="Md Ali Portfolio"
+  },[])
   return (
     <div className='App' style={{background:"#E4E6EB"}}>
     <Navbar />
