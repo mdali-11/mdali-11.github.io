@@ -65,7 +65,7 @@ export const Contact = () => {
           </div>
           </div>
         </div>
-        <FloatingWhatsApp phoneNumber="9007977270" accountName="Md Ali"/>
+        <FloatingWhatsApp phoneNumber="+91 9007977270" accountName="Md Ali"/>
       </div>
       </section>
     </>
