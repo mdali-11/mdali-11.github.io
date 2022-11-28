@@ -7,6 +7,13 @@
   background-color: #CDF4D9;
 }
 
+body{
+  overflow-x: hidden;
+}
+
+
+
+
 
 .App-logo {
   height: 40vmin;

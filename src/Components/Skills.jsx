@@ -20,8 +20,8 @@ export default function Skills(){
 
     return (
         <> 
-          <div className="skills_Containor">
-            <section id="#skills">
+          <div style={{width:"100vw",height:"100vh", paddingTop:"50px"}}>
+            <section style={{position:"absolute", marginTop:"300px"}} id="#skills"></section>
             <h1 align="center" style={{fontSize:"40px"}}>Skills</h1>
             <div className="techsection">
           <div>
@@ -75,7 +75,6 @@ export default function Skills(){
             <h5>Github</h5>
           </div>
         </div>
-            </section>
             </div>
         </>
     )

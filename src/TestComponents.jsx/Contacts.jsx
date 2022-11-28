@@ -7,7 +7,7 @@ import { FaLinkedin ,FaWhatsapp } from "react-icons/fa";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export const Contact = () => {
+export const Contacts = () => {
 
   return (
     <>
