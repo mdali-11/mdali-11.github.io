@@ -1,8 +1,7 @@
 .project_main_div{
-    width: 100vw;
+    width: 100%;
     height:auto;
     display: flex;
-    margin: 0;padding: 0;
     flex-direction: column;
     padding: 75px 0px;
     align-items: center;
@@ -22,7 +21,7 @@
     margin: 70px 0px;
 }
 .carousel{
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: auto;
     display: grid;
