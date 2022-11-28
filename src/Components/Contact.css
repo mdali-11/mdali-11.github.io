@@ -11,9 +11,13 @@
   }
 
   .section{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
     padding: 25px 0px;
     background-color: black;
     color: white;
+    /* border: 5px solid blue; */
   }
   
   .contactcontainer svg {

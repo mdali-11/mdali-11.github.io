@@ -1,7 +1,8 @@
 .project_main_div{
-    width: 100%;
+    width: 100vw;
     height:auto;
     display: flex;
+    margin: 0;padding: 0;
     flex-direction: column;
     padding: 75px 0px;
     align-items: center;

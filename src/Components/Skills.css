@@ -6,6 +6,22 @@
     height: 50vh;
     /* max-height: 400px; */
   }
+
+  .skills_Containor{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;padding: 0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* padding:50px 0px; */
+    background-color: #E4E6EB;
+
+
+
+  }
+  /* {width:"100vw",height:"", margin:0,  padding:0,backgroundColor:"#E4E6EB", padding:"50px 0px"} */
   
   .techsection > div {
     width: 11%;
@@ -15,6 +31,7 @@
     z-index: 1;
     border-radius: 20px;
     margin: 2.5%;
+    /* margin: auto; */
     float: left;
     display: flex;
     flex-direction: column;

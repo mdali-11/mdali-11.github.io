@@ -1,4 +1,6 @@
     .nav{
+        margin: 0;
+        padding: 0;
         width: 100vw;
         display: flex;
         position: fixed;
@@ -9,6 +11,7 @@
         color: white;
     }
 .TopArea{
+    margin: 0;padding: 0;
     width:95vw;
     margin: auto;
     height:80px;
@@ -46,13 +49,7 @@ div>a{
     font-weight: bold;
 }
 
-.home{
-    width:"100vw";
-    height:"100vh";
-    display:"flex";
-    align-items:"center";
-    justify-content:"center";
-}
+
 
 .cap_name{
         /* margin-top: 20vh; */
@@ -177,8 +174,12 @@ div>a{
 
   }
   .home{
+    /* width: 100vw;
+    height: auto; */
     width: 100vw;
-    height: auto;
+    margin: 0;
+    padding: 0;
+
     /* background-color: #FFF7FE; */
     background-image: linear-gradient(to right,#83A1D9 , #FFFFFF);
 

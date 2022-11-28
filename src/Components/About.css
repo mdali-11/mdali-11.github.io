@@ -1,12 +1,18 @@
 .about_div{
+
   width:100vw;
   height: auto;
-  padding-top: 50px;
   display:flex;
   flex-direction:column;
   justify-content:space-around;
   align-items:center;
-  margin-bottom: 100px;
+  margin: 0;padding: 0;
+  /* border: 5px solid red; */
+  padding: 60px 0px;
+  background-color: #E4E6EB;
+  /* background-color: grey; */
+
+
   /* border: 5px solid red; */
   
 
