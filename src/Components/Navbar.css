@@ -1,7 +1,7 @@
     .nav{
         margin: 0;
         padding: 0;
-        width: 100vw;
+        width: 100%;
         display: flex;
         position: fixed;
         top:0;
@@ -176,7 +176,7 @@ div>a{
   .home{
     /* width: 100vw;
     height: auto; */
-    width: 100vw;
+    width: 100%;
     margin: 0;
     padding: 0;
 
