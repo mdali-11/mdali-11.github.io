@@ -10,9 +10,10 @@ export default function About() {
 
 
 
-    return (
-        <section id="#about" className="about_div">
-        <div>
+    return   <div className="about_div">
+            <section style={{position:"relative",top:"300px"}} id="#about">
+        </section>
+     <div>
             <h1 className="abt_head">About Me</h1>
         </div>
             <div className="about_cont">
@@ -96,8 +97,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
-
-
-    )
+                    
+    </div>
 }
