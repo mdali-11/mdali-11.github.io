@@ -5,8 +5,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import "./About.css"
-import { Type } from "../Old_Component/Type";
-
+import {Type} from "./Type"
 export default function About() {
 
 
