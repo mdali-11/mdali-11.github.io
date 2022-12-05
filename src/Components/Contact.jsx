@@ -74,8 +74,8 @@ export default function Contact() {
               </span>
             </div>
           </div>
-        <FloatingWhatsApp phoneNumber="9007977270" accountName="Md Ali" allowClickAway="true"/>
           </div>
+        {/* <FloatingWhatsApp phoneNumber="+919007977270" accountName="Md Ali" allowClickAway="true"/> */}
             </div>
         </section>
   

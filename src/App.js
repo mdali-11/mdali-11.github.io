@@ -8,12 +8,12 @@ import './App.css';
 // import Github from './Components/Github';
 // import Skills from './Components/Skills';
 import {useEffect} from "react"
-import Navbar from './NewComp/Navbar';
-import About from './NewComp/About';
-import Projects from './NewComp/Projects';
-import Skills from './NewComp/Skills';
-import Github from './NewComp/Github';
-import Contact from './NewComp/Contact';
+import Navbar from './Components/Navbar';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
+import Github from './Components/Github';
+import Contact from './Components/Contact';
 
 
 
@@ -30,14 +30,8 @@ function App() {
   <Projects />
   <Skills />
   <Github />
-  <Contact />
+  {/* <Contact /> */}
 
-  
-    {/* <About />
-    <Projects />
-    <Skills />
-    <Github />
-    <Contact />  */}
     </div>
 }
 

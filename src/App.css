@@ -7,9 +7,12 @@
   background-color: #CDF4D9;
 }
 
-/* body{
-  overflow-x: hidden;
-} */
+.app{
+  margin: 0;
+  padding: 0;
+}
+
+
 
 
 
