@@ -169,6 +169,10 @@ margin: auto;
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .Top_Area_Responsive{
 width: 80%;
 height: 90vh;

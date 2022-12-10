@@ -46,13 +46,7 @@ export default function MobNav() {
                         toggleNavList("#about");
                         closeMobileMenu()
                     }}>
-                        <a href="#about">ABOUT</a>
-                    </li>
-                    <li className="option" onClick={()=>{
-                        toggleNavList("#contact");
-                        closeMobileMenu()
-                    }}>
-                        <a href="#contact">CONTACT</a>
+                        <a href="#about">ABOUT ME</a>
                     </li>
                     <li className="option" onClick={()=>{
                         toggleNavList("#projects");
@@ -65,6 +59,12 @@ export default function MobNav() {
                         closeMobileMenu()
                     }}>
                         <a href="#skills">SKILLS</a>
+                    </li>
+                    <li className="option" onClick={()=>{
+                        toggleNavList("#contact");
+                        closeMobileMenu()
+                    }}>
+                        <a href="#contact">CONTACT</a>
                     </li>
                     <li className="option mobile-option" onClick={()=>{
                         toggleNavList("/");

@@ -10,7 +10,7 @@ export default function Navbar() {
     const toggleNavList = (id) => {
         var element = document.getElementById(id)
         if (element) {
-            element.scrollIntoView({ behavior: "smooth", block: 'center' });
+            element.scrollIntoView({ left:0,behavior: "smooth", block: 'center' });
         }
         setNavlist(!navList);
     };
@@ -41,23 +41,14 @@ export default function Navbar() {
                                     onClick={() => toggleNavList("#about")}
                                     style={{ color: "white", fontSize: "16px" }}
                                     variant="text" color="default">
-                                    ABOUT
-                                </Button>
-                            </a>
-                            <a href="#contact" className="underLine2 hide_on_responsive" >
-                                <Button
-                                    onClick={() => toggleNavList("#contact")}
-                                    style={{ color: "white", fontSize: "16px" }}
-                                    variant="text" color="default">
-                                    CONTACT
-                                </Button>
+                                    ABOUT ME                                </Button>
                             </a>
                             <a href="#projects" className="underLine2 hide_on_responsive" >
                                 <Button
                                     onClick={() => toggleNavList("#projects")}
                                     style={{ color: "white", fontSize: "16px" }}
                                     variant="text" color="default">
-                                    PROJECTS
+                                    PRPJECTS
                                 </Button>
                             </a>
                             <a href="#skills" className="underLine2 hide_on_responsive" >
@@ -66,6 +57,14 @@ export default function Navbar() {
                                     style={{ color: "white", fontSize: "16px" }}
                                     variant="text" color="default">
                                     SKILLS
+                                </Button>
+                            </a>
+                            <a href="#contact" className="underLine2 hide_on_responsive" >
+                                <Button
+                                    onClick={() => toggleNavList("#contact")}
+                                    style={{ color: "white", fontSize: "16px" }}
+                                    variant="text" color="default">
+                                    CONTACTS
                                 </Button>
                             </a>
                             <a href="/" className="underLine2">
