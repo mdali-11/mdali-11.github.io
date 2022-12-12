@@ -60,7 +60,7 @@ background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
   
 
      
-@media all and (min-width: 480px) and (max-width: 780px) {
+@media all and (min-width: 480px) and (max-width: 1000px) {
 
 
   .techsection > div {

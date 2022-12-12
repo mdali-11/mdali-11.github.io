@@ -40,7 +40,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 
 
    
-@media all and (min-width: 480px) and (max-width: 780px) {
+@media all and (min-width: 480px) and (max-width: 1000px) {
 /*   
     .gitcont{
         margin-top: 500px;

@@ -248,7 +248,7 @@ display: none;
 
 
 
-@media all and (min-width: 481px) and (max-width: 785px) {
+@media all and (min-width: 481px) and (max-width: 1000px) {
 .TopArea{
     display: none;
 }

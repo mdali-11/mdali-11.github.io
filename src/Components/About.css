@@ -117,7 +117,7 @@ font-size:40px;
   }
   
    
-  @media all and (min-width: 480px) and (max-width: 780px) {
+  @media all and (min-width: 480px) and (max-width: 1000px) {
     .about_div{
       width: 100%;
      flex-direction: column;
