@@ -86,7 +86,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="home">
-                <section id="#home"></section>
+                <section style={{position:"absolute",marginTop:"200px"}} id="#home"></section>
                     <div>
                   
                             <div

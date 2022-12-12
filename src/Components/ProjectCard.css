@@ -114,9 +114,13 @@ button{
             margin: auto;
             display: flex;
             gap: 15px;
-            flex-direction: column;
+            /* flex-direction: column; */
             justify-content: space-between;
             align-items: center;
+        }
+
+        .repo-links button{
+            font-size: 14px;
         }
        
     

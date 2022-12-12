@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Kalam");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 
 .fsh{
-    font-family: "Kalam";
+    /* font-family: "Roboto"; */
+    font-family: "Poppins";
 }
 
 .nav{
@@ -271,7 +272,7 @@ display: none;
 }
 
 .cap_name{
-    font-size: 20px;
+    font-size:40px;
 }
 
 
