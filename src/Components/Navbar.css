@@ -1,5 +1,11 @@
-.nav{
+@import url("https://fonts.googleapis.com/css?family=Kalam");
 
+
+.fsh{
+    font-family: "Kalam";
+}
+
+.nav{
     width: 100%;
     display: flex;
     position: fixed;
@@ -52,13 +58,11 @@ font-weight: bold;
 .cap_name{
     /* margin-top: 20vh; */
     font-size: 50px;
-    width: 35%;
     text-align: left;
     cursor: pointer
 }
 
 .resume_btn{
-margin-top: 5vh;
 display: flex;
 justify-content: flex-start;
 
@@ -66,11 +70,13 @@ justify-content: flex-start;
 
 #btn:hover{
 transform: scale(.95);
+transition: 0.3s ease-in-out;
 }
 
 #btn{
  background: black;      
  color:white; 
+transition: 0.3s ease-in-out;
  font-weight: bolder;
   font-size: 15px;
   cursor: pointer;
@@ -191,7 +197,7 @@ width: 100%;
 
 
 /* background-color: #FFF7FE; */
-background-image: linear-gradient(to right,#83A1D9 , #FFFFFF);
+background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 
 /* background-color: #E4E6EB; */
 /* background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
@@ -207,7 +213,7 @@ flex-direction: column;
 }
 .divvid{
 display: flex;
-width: 100%; 
+width: 60%; 
 justify-content: center;
 align-items: center;
 }
@@ -249,7 +255,7 @@ display: none;
 .TopAreaMiddle{
     display: block;
     width: 100%;
-    border: 50px solid red;
+    /* border: 50px solid red; */
     /* width:100vw;
     height:80px;
     display:flex;
@@ -260,7 +266,13 @@ display: none;
     color: white; */
 
 }
+.divvid{
+    width: 100%;
+}
 
+.cap_name{
+    font-size: 20px;
+}
 
 
 .Top_Area_Responsive{
@@ -276,6 +288,13 @@ display: none;
 @media all and (min-width: 321px) and (max-width: 480px) {
 .TopArea{
     display: none;
+}
+
+.cap_name{
+    font-size: 30px;
+}
+.divvid{
+    width: 100%;
 }
 .TopAreaMiddle{
     display: block;

@@ -13,7 +13,7 @@ export default function Contact() {
 
     return  <section id="#contact">
         <div className="contacts">
-            <div>
+            <div className="cth">
                 <h1>Get in <span>Touch</span></h1>
             </div>
             <div className="contact_box">

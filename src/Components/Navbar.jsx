@@ -5,6 +5,7 @@ import { useState } from "react"
 // import { Typography } from "@material-ui/core"
 import MobNav from "./MobNav"
 
+
 export default function Navbar() {
     const [navList, setNavlist] = useState(false)
     const toggleNavList = (id) => {
@@ -15,7 +16,6 @@ export default function Navbar() {
         setNavlist(!navList);
     };
 
-
     return (
         <>
             <div>
@@ -25,7 +25,7 @@ export default function Navbar() {
                         <div style={{
                             marginLeft: "2vw",
                         }}>
-                            <strong style={{ fontSize: "1.8rem" }}>Md Ali</strong>
+                            <strong className="fsh" style={{ fontSize: "1.8rem" }}>Md Ali</strong>
                         </div>
                         <div className="nav_options" >
                             <a href="#home" className="underLine2 hide_on_responsive">
@@ -48,7 +48,7 @@ export default function Navbar() {
                                     onClick={() => toggleNavList("#projects")}
                                     style={{ color: "white", fontSize: "16px" }}
                                     variant="text" color="default">
-                                    PRPJECTS
+                                    PROJECTS
                                 </Button>
                             </a>
                             <a href="#skills" className="underLine2 hide_on_responsive" >
@@ -86,7 +86,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="home">
-                <section id="#home">
+                <section id="#home"></section>
                     <div>
                   
                             <div
@@ -104,23 +104,25 @@ export default function Navbar() {
                                             }}>
                                             Md Ali
                                         </span>{" "} */}
-                                        <br />{" "}
-                                        <span
+                                        {/* <br />{" "} */}
+                                        <h3
                                             className="underLine1"
                                             style={{
-                                                fontFamily: "'Roboto Mono', monospace",
+                                                // width:"50%",
+                                                fontFamily: "Poppins",
                                                 fontWeight: "100",
+                                                // fontSize:"25px"
                                             }}
                                         >
-                                            Full Stack Web Developer
-                                        </span>
+                                            Full Stack <br />Web Developer
+                                        </h3>
+                                    
                                     </div>
                                     <div
                                       className="resume_btn">
                                         <button onClick={()=> {
                                             window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view")
                                         }} variant="contained" id="btn">RESUME</button>
-                            
                                     </div>
                                 </div>
 
@@ -130,7 +132,7 @@ export default function Navbar() {
                             </div>
                      
                     </div>
-                </section>
+                {/* </section> */}
             </div>
         </>
     )

@@ -22,11 +22,11 @@ import ReactToolTip from "react-tooltip"
         }
 
         return (
-            <div>
+            <div >
                 <Githubcalendar 
                 style={{margin:"auto"}} 
                     username="mdali-11"
-                    color="black"
+                    color="#16DB94"
                     transformData={selectLastHalfYear}
                     blockSize={20}
                     fontSize={20}

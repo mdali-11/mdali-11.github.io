@@ -33,7 +33,7 @@ export default function MobNav() {
                 <div style={{
                         marginLeft: "2vw",
                     }}>
-                        <strong style={{ fontSize: "1.8rem" }}>Md Ali</strong>
+                        <strong className="fsh" style={{ fontSize: "1.8rem" }}>Md Ali</strong>
                     </div>
                 <ul className={click ? "nav-options active" : "nav-options"}>
                 <li className="option" onClick={()=>{
@@ -78,7 +78,7 @@ export default function MobNav() {
                     </li>
                 </ul>
             </div>
-            <ul className="signin-up">
+            {/* <ul className="signin-up">
                 <li className="sign-in" onClick={closeMobileMenu}>
                     <a href="/">SIGN-IN</a>
                 </li>
@@ -87,7 +87,7 @@ export default function MobNav() {
                         SIGN-UP
                     </a>
                 </li>
-            </ul>
+            </ul> */}
             <div className="mobile-menu" onClick={handleClick}>
                 {click ? (
                     <CloseIcon  w={30} h={30} className="menu-icon" />

@@ -6,9 +6,9 @@ export default function Github() {
 
 
     return <div className="gitcont">
-    <h1 align="center" style={{fontSize:"40px"}}>Github</h1>
+    <h1 align="center" style={{fontSize:"40px", marginBottom:"50px"}}>Github</h1>
         <div className="git">
-        <div>
+        <div className="calender">
         <Calendar />
         </div>
             <div>

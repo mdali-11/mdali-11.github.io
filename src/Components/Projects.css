@@ -3,10 +3,13 @@
     height:auto;
     display: flex;
     flex-direction: column;
-    padding: 75px 0px;
+    padding-top: 75px;
+    padding-bottom:75px;
     align-items: center;
     background-color: #83A1D9;
     background-image: linear-gradient(to right,#FFFFFF,#83A1D9 );
+background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
+
 }
 
 

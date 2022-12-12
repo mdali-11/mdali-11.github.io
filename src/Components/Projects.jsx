@@ -11,7 +11,7 @@ export default function Projects() {
         </section>
 
         <div>
-        <h1 style={{fontSize:"40px" , marginBottom:"45px"}}>Projects</h1>
+        <h1 style={{fontSize:"40px" , marginBottom:"50px"}}>Projects</h1>
         </div>
     
 

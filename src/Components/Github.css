@@ -2,6 +2,10 @@
 img{
     width:100%;
 }
+.calender{
+    background-color: black;
+    border-radius: 15px;
+}
 
 .gitcont{
     /* border: 10px solid white; */
@@ -13,6 +17,8 @@ img{
     /* color: whitesmoke; */
     background-color: #83A1D9;
     background-image: linear-gradient(to right,#83A1D9 , #FFFFFF);
+background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
+
 
 /* 
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
@@ -35,20 +41,20 @@ img{
 
    
 @media all and (min-width: 480px) and (max-width: 780px) {
-  
+/*   
     .gitcont{
         margin-top: 500px;
-    }
+    } */
 }
 
 
     
     
     @media all and (min-width: 321px) and (max-width: 480px) {
-
+/* 
         .gitcont{
             margin-top: 500px;
-        }
+        } */
     
     }
 
