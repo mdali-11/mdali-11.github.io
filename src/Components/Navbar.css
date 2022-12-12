@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 
 
 .fsh{
-    /* font-family: "Roboto"; */
-    font-family: "Poppins";
+    font-size: 2rem;
+    font-family: "Roboto";
 }
 
 .nav{
@@ -100,7 +101,10 @@ cursor: "pointer"
 .Vid{
 cursor: pointer;
 transition: 0.6s;
-border-radius: 20px;
+display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
 }
 .Vid:hover{
 transform: scale(0.9);
@@ -182,11 +186,11 @@ html{
 
 .Top_Area_Responsive{
 width: 80%;
-height: 90vh;
+height: 100vh;
 margin: auto;
 /* border: 5px solid black; */
 display: flex;
-padding: 5%;
+/* padding: 5%; */
 align-items: center;
 justify-content: space-between;
 
@@ -213,14 +217,16 @@ flex-direction: column;
 /* margin-top: 2vh; */
 }
 .divvid{
-display: flex;
 width: 60%; 
+display: flex;
 justify-content: center;
 align-items: center;
 }
 
 .Vid{
 width: 100%;
+display: flex;
+justify-content: center;align-items: center;
 }
 
 
@@ -267,12 +273,16 @@ display: none;
     color: white; */
 
 }
-.divvid{
-    width: 100%;
-}
+
+
+
 
 .cap_name{
     font-size:40px;
+}
+.Vid{
+    /* border: 5px solid red; */
+    margin: auto;
 }
 
 
@@ -284,6 +294,16 @@ display: none;
     
         }
 
+        
+.divvid{
+    width: 100%;
+}
+
+.Vid{
+    width: 100%;
+    margin: auto;
+}
+
 }
 
 @media all and (min-width: 321px) and (max-width: 480px) {
@@ -291,20 +311,29 @@ display: none;
     display: none;
 }
 
-.cap_name{
-    font-size: 30px;
-}
 .divvid{
     width: 100%;
 }
+
+.Vid{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.cap_name{
+    font-size: 30px;
+}
+
 .TopAreaMiddle{
     display: block;
   
 
 }
+
 .Top_Area_Responsive{
 margin-top: 70px;
-
          flex-direction: column;
          align-items: center;
          justify-content: space-evenly;

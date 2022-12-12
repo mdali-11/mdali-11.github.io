@@ -25,7 +25,7 @@ export default function Navbar() {
                         <div style={{
                             marginLeft: "2vw",
                         }}>
-                            <strong className="fsh" style={{ fontSize: "1.8rem" }}>Md Ali</strong>
+                            <strong className="fsh">Md Ali</strong>
                         </div>
                         <div className="nav_options" >
                             <a href="#home" className="underLine2 hide_on_responsive">

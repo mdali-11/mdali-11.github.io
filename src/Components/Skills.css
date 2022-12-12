@@ -2,7 +2,7 @@
    .skillss{
     width: 100%;
     height: 100vh;
-    padding-top: 100px;
+    padding: 100px 0px;
 background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
 /* border: 5px solid red; */
    }
