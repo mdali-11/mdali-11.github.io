@@ -7,12 +7,12 @@ export default function Projects() {
         // <!-- project section start -->
          <div className="project_main_div">
         {/* <section className="project" id="#projects"> */}
-        <section style={{position:"relative",top:"300px"}} id="#projects">
-        </section>
 
         <div>
         <h1 style={{fontSize:"40px" , marginBottom:"50px"}}>Projects</h1>
         </div>
+        <section style={{position:"relative",top:"200px"}} id="#projects">
+        </section>
     
 
         <div className="project_div">
