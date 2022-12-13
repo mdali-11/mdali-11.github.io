@@ -5,7 +5,7 @@ import { VscGithub,  } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaLinkedin ,FaWhatsapp } from "react-icons/fa";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+// import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 
 
@@ -74,7 +74,7 @@ export default function Contact() {
             </div>
           </div>
           </div>
-        <FloatingWhatsApp phoneNumber="+919007977270" accountName="Md Ali" allowClickAway="true"/>
+        {/* <FloatingWhatsApp phoneNumber="+919007977270" accountName="Md Ali" allowClickAway="true"/> */}
             </div>
         </section>
   
