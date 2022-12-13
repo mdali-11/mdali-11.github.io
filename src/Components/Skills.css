@@ -1,7 +1,7 @@
    
    .skillss{
     width: 100%;
-    height: max-content;
+    margin: auto;
     padding: 100px 0px;
 background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
 /* border: 5px solid red; */
@@ -11,13 +11,14 @@ background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
 
   .techsection {
     width: 100%;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
     /* background-color: var(--clr-bg); */
-    height: 60vh;
+    /* height: 60vh; */
     /* max-height: 400px; */
   }
   
@@ -63,6 +64,7 @@ background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
 @media all and (min-width: 480px) and (max-width: 780px) {
   
 
+  
 
   .techsection > div {
     width: 40%;
