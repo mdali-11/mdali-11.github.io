@@ -89,11 +89,19 @@ export default function About() {
                             </a>
                         </div>
 
-                        <Button variant="outlined" style={{ background: "black", color: "white", fontWeight: "bolder", fontSize: "15px" }} onClick={() => {
-                            window.open(
-                                "https://drive.google.com/file/d/1XfEAY-Cf94WcIvC9955EMD1NgFCh0AwA/view?usp=sharing"
-                            );
-                        }}>Resume</Button>
+                        <Button variant="outlined" style={{ background: "black", color: "white", fontWeight: "bolder", fontSize: "15px" }}                       
+
+                        >
+                            <a
+                      rel="noreferrer"
+                      style={{ textDecoration: "none", color: "white" }}
+                      href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
+                    >
+                    
+                        RESUME
+                     
+                    </a>
+                        </Button>
                     </div>
                 </div>
             </div>

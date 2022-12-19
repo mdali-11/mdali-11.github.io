@@ -26,9 +26,9 @@ techstacks={"HTML CSS JS"} linkg={"https://github.com/mdali-11/Rentomojo-clone"}
            <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(15423).png?raw=true"} title={"Axios Clone"} 
 desc1={"Collaborative Project - Built a fully responsive ecommerce website where you can buy clothes for your wardrobe"}
                   techstacks={"HTML CSS JS React JS Chakra UI"} linkg={"https://github.com/mehfoozkhangithub/tangible-robin-3650/tree/main/team_robin"} linkd={"https://strong-parfait-b1bad8.netlify.app/"} />
-                <ProjectCard src={"https://github.com/mdali-11/Rentomojo-clone/raw/main/pics/Screenshot%20(13133).png"} title={"Rentomojo Clone"}
-                desc1={"An ecommerce website where you can take stuffs on rent for a speciifc period."}
-techstacks={"HTML CSS JS"} linkg={"https://github.com/mdali-11/Rentomojo-clone"} linkd={"https://scintillating-chaja-eb9e34.netlify.app/"} />
+                <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(17324).png?raw=true"} title={"Modesens Clone"}
+                desc1={"Collaborative Project - Built a fully responsive ecommerce website where you buy and get best brands deals on latest fashionwear."}
+techstacks={"HTML CSS JS Chakra React Node ExpresS MongoDB"} linkg={"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"https://modesense-udhai-20.vercel.app/"} />
           
             </div>
        

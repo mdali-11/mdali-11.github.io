@@ -67,13 +67,12 @@ export default function Navbar() {
                                     CONTACTS
                                 </Button>
                             </a>
-                            <a href="/" className="underLine2">
-                                <Button onClick={()=> {
-                                            window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view")
-                                        }}
+                            <a href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
+                             style={{ textDecoration: "none", color: "white" }} className="underLine2">
+                                <Button 
                                     style={{ color: "black", background: "#F2F0F4", fontSize: "15px", fontWeight: "bold" }}
                                     variant="outlined" color="secondary">
-                                    RESUME
+                        RESUME
                                 </Button>
                             </a>
 
@@ -120,9 +119,18 @@ export default function Navbar() {
                                     </div>
                                     <div
                                       className="resume_btn">
-                                        <button onClick={()=> {
-                                            window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view")
-                                        }} variant="contained" id="btn">RESUME</button>
+                                        <Button 
+                                         variant="contained" id="btn">
+                                            <a
+                      rel="noreferrer"
+                      style={{ textDecoration: "none", color: "white" }}
+                      href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
+                    >
+                    
+                        RESUME
+                     
+                    </a>
+                                         </Button>
                                     </div>
                                 </div>
 
