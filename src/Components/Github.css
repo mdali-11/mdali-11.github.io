@@ -3,8 +3,11 @@ img{
     width:100%;
 }
 .calender{
-    background-color: black;
+    background-color: #282A36;
     border-radius: 15px;
+    font-size: large;
+    color: white;
+    padding: 20px;
 }
 
 .gitcont{

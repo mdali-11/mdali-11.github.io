@@ -1,6 +1,6 @@
 
 import Calendar from "./Calender";
-import "./Github.css"
+import "./Github.css";
 
 export default function Github() {
 
@@ -16,14 +16,14 @@ export default function Github() {
             </div>
 
             <div>
-                <p>&nbsp;<img align="center" margin-Top="5px" src="https://github-readme-stats.vercel.app/api?username=mdali-11&show_icons=true&locale=en&theme=dracula" alt="mdali-11" /></p>
+                <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mdali-11&show_icons=true&locale=en&theme=dracula" alt="mdali-11" /></p>
             </div>
             <div>
                 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdali-11&theme=dracula" alt="mdali-11" /></p>
             </div>
-            <div>
+            {/* <div>
                 <a href="https://github.com/mdali-11/github-readme-activity-graph"><img alt="Md Ali Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=mdali-11&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
-            </div>
+            </div> */}
             <div>
                 <p>
                     <a href="https://github.com/mdali-11"><span>

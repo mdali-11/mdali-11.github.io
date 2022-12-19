@@ -24,7 +24,7 @@ export default function About() {
                    
                         <div className="abt_name">
                             <h1 className="about_details">
-                                Hello, I am <span className="about_name">Md Ali</span><span><Type /></span>
+                                Hello, I am <span className="about_name">Md Ali</span><span className="typo"><Type /></span>
                             </h1>
                         </div>
                         <div className="abt_desc">
