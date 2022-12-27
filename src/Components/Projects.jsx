@@ -23,12 +23,12 @@ desc1={"Individual Project - Built a fully responsive weather app using weather 
                 desc1={"An ecommerce website where you can take stuffs on rent for a speciifc period."}
 techstacks={"HTML CSS JS"} linkg={"https://github.com/mdali-11/Rentomojo-clone"} linkd={"https://roaring-scone-4c2c2e.netlify.app/"} />
            
-           <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(15423).png?raw=true"} title={"Axios Clone"} 
+           <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(15423).png?raw=true"} title={"Asos Clone"} 
 desc1={"Collaborative Project - Built a fully responsive ecommerce website where you can buy clothes for your wardrobe"}
-                  techstacks={"HTML CSS JS React JS Chakra UI"} linkg={"https://github.com/mehfoozkhangithub/tangible-robin-3650/tree/main/team_robin"} linkd={"https://strong-parfait-b1bad8.netlify.app/"} />
+                  techstacks={"HTML CSS JS React JS Chakra UI"} linkg={"https://github.com/mehfoozkhangithub/tangible-robin-3650/tree/main/team_robin"} linkd={"https://ali-asos-clone.vercel.app"} />
                 <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(17324).png?raw=true"} title={"Modesens Clone"}
                 desc1={"Collaborative Project - Built a fully responsive ecommerce website where you buy and get best brands deals on latest fashionwear."}
-techstacks={"Chakra React Node Express MongoDB"} linkg={"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"https://modesense-udhai-20.vercel.app/"} />
+techstacks={"Chakra React Node Express MongoDB"} linkg={"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"https://ali-modesens.vercel.app/"} />
           
             </div>
        
