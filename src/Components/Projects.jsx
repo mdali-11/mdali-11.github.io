@@ -20,7 +20,7 @@ export default function Projects() {
 desc1={"Individual Project - Built a fully responsive weather app using weather API where you can search for any location"}
                   techstacks={"HTML CSS JS"} linkg={"https://github.com/mdali-11/weather-app"} linkd={"https://eloquent-concha-9fefda.netlify.app/"} />
                 <ProjectCard src={"https://github.com/mdali-11/Rentomojo-clone/raw/main/pics/Screenshot%20(13133).png"} title={"Rentomojo Clone"}
-                desc1={"An ecommerce website where you can take stuffs on rent for a speciifc period."}
+                desc1={"Collaborative Project - Built a fully responsive a ecommerce website where you can take stuffs on rent for a speciifc period."}
 techstacks={"HTML CSS JS"} linkg={"https://github.com/mdali-11/Rentomojo-clone"} linkd={"https://roaring-scone-4c2c2e.netlify.app/"} />
            
            <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(15423).png?raw=true"} title={"Asos Clone"} 

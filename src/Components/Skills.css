@@ -30,6 +30,7 @@ background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
     z-index: 1;
     border-radius: 20px;
     margin: 2.5%;
+    padding-top: 10px;
     float: left;
     display: flex;
     flex-direction: column;
