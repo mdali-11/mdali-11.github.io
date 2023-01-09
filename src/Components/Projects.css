@@ -24,7 +24,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
     margin: 70px 0px;
 }
 .carousel{
-    width: 80%;
+    width: 75%;
     height: auto;
     margin: auto;
     display: grid;
@@ -63,6 +63,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 @media all and (min-width: 480px) and (max-width: 900px) {
 
     .carousel{
+        width: 80%;
         grid-template-columns: 1fr;
     }
 }
@@ -71,6 +72,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
     @media all and (min-width: 321px) and (max-width: 480px) {
 
         .carousel{
+            width: 80%;
             grid-template-columns: 1fr;
         }
     
