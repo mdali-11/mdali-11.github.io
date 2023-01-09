@@ -4,18 +4,17 @@ export default function ProjectCard({ src, title, desc1, techstacks, linkg, link
 
     return (
         <>
-            <div className="card">
                 <div className="box">
                     <div className="left_box">
                         <img className="img" src={src} alt="" />
                     </div>
                     <div className="right_box">
-                        <div className="text">{title}</div>
+                        <div className="title">{title}</div>
                         <div className="desc">
                             <p>{desc1}</p>
                         </div>
                         <div  className="techtext">
-                            <p><span className="techStack">{techstacks}</span></p>
+                            <div className="techStack">{techstacks}</div>
                         </div>
                         <div className="repo-links">
                             <div className="repo-div">
@@ -29,7 +28,6 @@ export default function ProjectCard({ src, title, desc1, techstacks, linkg, link
                     </div>
 
                 </div>
-            </div>
         </>
     )
 }
