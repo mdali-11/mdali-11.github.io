@@ -24,19 +24,14 @@ export default function MobNav() {
     return (
         <div className="header">
             <div className="logo-nav">
-                {/* <div className="logo-container">
-                    <a href="/">
-                        <Logo className="logo" />
-                     
-                    </a>
-                </div> */}
                 <div style={{
                         marginLeft: "2vw",
                     }}>
-                        <strong className="fsh" style={{ fontSize: "1.8rem" }}>Md Ali</strong>
+                        <strong className="name" style={{ fontSize: "1.5rem" }}>Md Ali</strong>
                     </div>
                 <ul className={click ? "nav-options active" : "nav-options"}>
-                <li className="option" onClick={()=>{
+                    <div className="menu_items">
+                 <li className="option" onClick={()=>{
                         toggleNavList("#home");
                         closeMobileMenu()
                     }}>
@@ -76,6 +71,7 @@ export default function MobNav() {
                             RESUME
                         </button>
                     </li>
+                    </div>
                 </ul>
             </div>
             {/* <ul className="signin-up">
@@ -90,9 +86,9 @@ export default function MobNav() {
             </ul> */}
             <div className="mobile-menu" onClick={handleClick}>
                 {click ? (
-                    <CloseIcon  w={30} h={30} className="menu-icon" />
+                    <CloseIcon  w={25} h={25} className="menu-icon" />
                 ) : (
-                    <HamburgerIcon  w={50} h={50} className="menu-icon" />
+                    <HamburgerIcon  w={40} h={40} className="menu-icon" />
                 )}
             </div>
         </div>

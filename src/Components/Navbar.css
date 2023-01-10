@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 
 
 .fsh{
+    font-family: "Poppins";
+    font-size: 1.5rem;
+}
+
+.name{
+    font-family: "Poppins";
     font-size: 2rem;
-    font-family: "Roboto";
 }
 
 .nav{
@@ -67,23 +73,26 @@ font-weight: bold;
 .resume_btn{
 display: flex;
 justify-content: flex-start;
+align-items: center;
 
 }
 
 #btn:hover{
-transform: scale(.95);
-transition: 0.3s ease-in-out;
+transform: scale(1.1);
+
 }
 
 #btn{
  background: black;      
  color:white; 
-transition: 0.3s ease-in-out;
+/* transition: 0.3s ease-in-out; */
  font-weight: bolder;
   font-size: 15px;
   cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 15px;
+  padding: 5px 15px;
+  border-radius: 16px;
+  transition: transform .5s;
+
 }
 
 
