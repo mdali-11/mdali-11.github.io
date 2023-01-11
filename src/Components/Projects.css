@@ -102,6 +102,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    transition: transform .4s;
    gap: 10px;
+   background-color: whitesmoke;
 }
 
 .card:hover{
@@ -125,7 +126,7 @@ a:hover{
 .right{
     width: 90%;
     margin: auto;
-    height: 60%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -213,7 +214,7 @@ a:hover{
 @media all and (min-width: 481px) and (max-width: 800px) {
 
     .proj_cont{
-        width: 80%;
+        width: 70%;
         margin: auto;
         grid-template-columns: 1fr;
     }
