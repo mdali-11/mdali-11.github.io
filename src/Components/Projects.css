@@ -21,7 +21,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 
 .proj_head{
     font-size: 40px;
-    margin: 70px 0px;
+     margin-top: 70px;
 }
 /* .carousel{
     width: 75%;
@@ -79,15 +79,15 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 
     
 .proj_cont{
-    width: auto;
+    width: 75%;
     margin: auto;
     /* border: 10px solid red; */
     height:auto;
-    padding: 25px 0px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-content: space-around;
-    gap: 125px;
+    justify-content: space-between;
+    align-items: center;
+    grid-row-gap: 100px;
 }
 
 .card{
@@ -101,7 +101,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
    align-items: center;
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    transition: transform .4s;
-   gap: 15px;
+   gap: 10px;
    background-color: whitesmoke;
 }
 
@@ -129,7 +129,7 @@ a:hover{
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
     padding-bottom: 10px;
 }
@@ -137,16 +137,12 @@ a:hover{
 
 .title{
     text-align: center;
-    font-weight: bold;
-    font-size: large;
+    font-weight: bolder;
+    font-size: 16px;
 }
 .links{
     display: flex;
     justify-content: space-between;
-}
-
-.desc{
-    font-size: small;
 }
 
 .links button{
@@ -182,6 +178,9 @@ a:hover{
     /* margin-bottom: 5px; */
 }
 
+.desc{
+    font-size: smaller;
+}
 .tool{
     /* background-color: rgb(247, 60, 60); */
     background-color: rgb(62, 54, 218);
@@ -206,11 +205,13 @@ a:hover{
 @media all and (min-width:800px) and (max-width: 1000px) {
 
     .proj_cont{
+        width: 75%;
         grid-template-columns: 1fr;
     }
 
     .card{
         width: 50%;
+        height: max-content;
     }
 
 }
@@ -218,32 +219,53 @@ a:hover{
 @media all and (min-width: 481px) and (max-width: 800px) {
 
     .proj_cont{
-        width: 70%;
-        margin: auto;
+        /* width: 70%;
+        margin: auto; */
         grid-template-columns: 1fr;
     }
 
     .card{
-        width: 80%;
+        width: 50%;
         block-size: auto;
-        /* height: max-content; */
-
+        height: max-content;
     }
-    
+
+    /* .desc{
+        font-size: 12px;
+    } */
+    .right{
+        gap: 15px;
+    }
+
+    .tool{
+        font-size: 10px;
+        }
 
 }
 
 @media all and (min-width: 321px) and (max-width: 480px) {
 
     .proj_cont{
-        width: 90%;
+        width: 85%;
         margin: auto;
         grid-template-columns: 1fr;
     }
 
+    /* .desc{
+        font-size: 12px;
+    } */
     .card{
         width:80%;
         block-size: auto;
         /* height: max-content; */
     }
+
+    .right{
+        gap: 15px;
+    }
+
+    .tool{
+        font-size: 10px;
+    }
+
 }

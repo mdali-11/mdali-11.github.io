@@ -153,7 +153,7 @@ techstacks={p4}"#"{"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"http
           <div className="right">
 
             <div className="title">Modesens Clone</div>
-            <div className="desc">Collaborative Project - Built a fully responsive ecommerce website where you buy and get best brands deals on latest fashionwear.</div>
+            <div className="desc">Collaborative Project - Built a fully responsive ecommerce website where you can buy and get best deals from brands.</div>
             <div className="stacks">{p4}</div>
 
 
