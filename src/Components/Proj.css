@@ -1,83 +1,4 @@
-.project_main_div{
-    width: 100%;
-    height:auto;
-    display: flex;
-    flex-direction: column;
-    padding-top: 75px;
-    padding-bottom:75px;
-    align-items: center;
-    background-color: #83A1D9;
-    background-image: linear-gradient(to right,#FFFFFF,#83A1D9 );
-background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 
-}
-
-
-        /* background-color: #E4E6EB; */
-        /* background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
-        background-repeat: no-repeat;
-        background-size: cover; */
-
-
-.proj_head{
-    font-size: 40px;
-    margin: 70px 0px;
-}
-/* .carousel{
-    width: 75%;
-    height: auto;
-    margin: auto;
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
-    gap: 100px;
-    grid-template-columns: repeat(2,1fr);
-} */
-
-/* .tool{
-    background-color: rgb(62, 54, 218);
-
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-.tool:hover{
-    background-color: yellow;
-    transition: all 0.2s ease-in-out;
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: none;
-} */
-
-
-
-  
-/* @media all and (min-width: 480px) and (max-width: 1280px) {
-
-    .carousel{
-        grid-template-columns: 1fr;
-    }
-}
-    
-    
-    @media all and (min-width: 321px) and (max-width: 480px) {
-
-        .carousel{
-            width: 80%;
-            grid-template-columns: 1fr;
-        }
-    
-    } */
-
-
-    
 .proj_cont{
     width: 80%;
     margin: auto;
@@ -101,19 +22,10 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
    align-items: center;
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    transition: transform .4s;
-   gap: 10px;
 }
 
 .card:hover{
     transform: scale(1.04);
-}
-
-a{
-    color: white;
-
-}
-a:hover{
-    color: white;
 }
 
 .left{
@@ -133,12 +45,6 @@ a:hover{
     padding-bottom: 10px;
 }
 
-
-.title{
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-}
 .links{
     display: flex;
     justify-content: space-between;

@@ -14,6 +14,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Github from './Components/Github';
 import Contact from './Components/Contact';
+import Proj from './Components/Newproj';
 
 
 
@@ -31,6 +32,7 @@ function App() {
   <Skills />
   <Github />
   <Contact />
+  <Proj />
 
     </div>
 }

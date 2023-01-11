@@ -31,7 +31,7 @@ export default function Navbar() {
                             <a href="#home" className="underLine2 hide_on_responsive">
                                 <Button
                                     onClick={() => toggleNavList("#home")}
-                                    style={{ color: "white", fontSize: "16px" }}
+                                    style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     HOME
                                 </Button>
@@ -39,14 +39,14 @@ export default function Navbar() {
                             <a href="#about" className="underLine2 hide_on_responsive">
                                 <Button
                                     onClick={() => toggleNavList("#about")}
-                                    style={{ color: "white", fontSize: "16px" }}
+                                    style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     ABOUT ME                                </Button>
                             </a>
                             <a href="#projects" className="underLine2 hide_on_responsive" >
                                 <Button
                                     onClick={() => toggleNavList("#projects")}
-                                    style={{ color: "white", fontSize: "16px" }}
+                                    style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     PROJECTS
                                 </Button>
@@ -54,7 +54,7 @@ export default function Navbar() {
                             <a href="#skills" className="underLine2 hide_on_responsive" >
                                 <Button
                                     onClick={() => toggleNavList("#skills")}
-                                    style={{ color: "white", fontSize: "16px" }}
+                                    style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     SKILLS
                                 </Button>
@@ -62,7 +62,7 @@ export default function Navbar() {
                             <a href="#contact" className="underLine2 hide_on_responsive" >
                                 <Button
                                     onClick={() => toggleNavList("#contact")}
-                                    style={{ color: "white", fontSize: "16px" }}
+                                    style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     CONTACTS
                                 </Button>
