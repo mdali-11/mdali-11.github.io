@@ -101,8 +101,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
    align-items: center;
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    transition: transform .4s;
-   gap: 10px;
-   border-radius: 5px;
+   gap: 15px;
    background-color: whitesmoke;
 }
 
@@ -130,7 +129,8 @@ a:hover{
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 10px;
     padding-bottom: 10px;
 }
 
@@ -172,8 +172,6 @@ a:hover{
 .card img{
     width: 100%;
     height:100%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     /* object-fit: contain; */
 }
 
@@ -231,10 +229,7 @@ a:hover{
         /* height: max-content; */
 
     }
-
-    .tool{
-        font-size: 12px;
-    }
+    
 
 }
 
@@ -250,12 +245,5 @@ a:hover{
         width:80%;
         block-size: auto;
         /* height: max-content; */
-    }
-
-    .tool{
-        font-size: 8px;
-    }
-    .right{
-        gap: 15px;
     }
 }
