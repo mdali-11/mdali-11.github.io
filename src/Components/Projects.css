@@ -221,6 +221,7 @@ a:hover{
 
     .card{
         width: 80%;
+        height: max-content;
 
     }
 
@@ -235,6 +236,7 @@ a:hover{
     }
 
     .card{
-        width:85%;
+        width:90%;
+        height: max-content;
     }
 }
