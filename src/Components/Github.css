@@ -34,7 +34,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
     margin: auto;
     display: grid;
     grid-template-columns:1fr;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
 }
