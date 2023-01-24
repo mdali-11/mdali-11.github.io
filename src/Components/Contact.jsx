@@ -11,7 +11,7 @@ import { FaLinkedin ,FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
 
-    return  <section id="#contact">
+    return  <section id="contact">
         <div className="contacts">
             <div className="cth">
                 <h1>Get in <span>Touch</span></h1>

@@ -1,5 +1,6 @@
 import "./MobNav.css"
 import React, { useState } from "react";
+import {Link} from "react-scroll"
 
 import {
      CloseIcon,HamburgerIcon
@@ -10,17 +11,19 @@ import {
 export default function MobNav() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
-    const [navList, setNavlist] = useState(false)
+    const closeMobileMenu = () => setClick(!click);
+    // const [navList, setNavlist] = useState(false)
     
-    const toggleNavList = (id) => {
+    // const toggleNavList = (id) => {
 
-        var element=document.getElementById(id)
-          if (element) {
-            element.scrollIntoView({behavior: "smooth",block: 'center'});
-          }
-          setNavlist(!navList);
-        };
+    //     var element=document.getElementById(id)
+    //       if (element) {
+    //         element.scrollIntoView({behavior: "smooth",block: 'center'});
+    //       }
+    //       setNavlist(!navList);
+    //     };
+
+ 
     return (
         <div className="header">
             <div className="logo-nav">
@@ -31,42 +34,35 @@ export default function MobNav() {
                     </div>
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <div className="menu_items">
-                 <li className="option" onClick={()=>{
-                        toggleNavList("#home");
-                        closeMobileMenu()
-                    }}>
-                        <a href="#about">HOME</a>
+                 <li className="option" >
+                        {/* <a href="#about">HOME</a> */}
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-100}>HOME</Link>
+
                     </li>
-                    <li className="option" onClick={()=>{
-                        toggleNavList("#about");
-                        closeMobileMenu()
-                    }}>
-                        <a href="#about">ABOUT ME</a>
+                    <li className="option" >
+                        {/* <a href="#about">ABOUT ME</a> */}
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-100}>ABOUT ME</Link>
+
                     </li>
-                    <li className="option" onClick={()=>{
-                        toggleNavList("#projects");
-                        closeMobileMenu()
-                    }}>
-                        <a href="#projects">PROJECTS</a>
+                    <li className="option" >
+                        {/* <a href="#projects">PROJECTS</a> */}
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-100}>PROJECTS</Link>
+
                     </li>
-                    <li className="option" onClick={()=>{
-                        toggleNavList("#skills");
-                        closeMobileMenu()
-                    }}>
-                        <a href="#skills">SKILLS</a>
+                    <li className="option" >
+                        {/* <a href="#skills">SKILLS</a> */}
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
+
                     </li>
-                    <li className="option" onClick={()=>{
-                        toggleNavList("#contact");
-                        closeMobileMenu()
-                    }}>
-                        <a href="#contact">CONTACT</a>
+                    <li className="option" >
+                        {/* <a href="#contact">CONTACT</a> */}
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-100}>CONTACT</Link>
+
                     </li>
-                    <li className="option mobile-option" onClick={()=>{
-                        toggleNavList("/");
-                        closeMobileMenu()
-                    }}>
+                    <li className="option mobile-option" >
                         <button onClick={()=> {
-                                            window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view")
+                                            window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view");
+                                            window.location.href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
                                         }} className="sign-up">
                             RESUME
                         </button>
@@ -76,10 +72,10 @@ export default function MobNav() {
             </div>
             {/* <ul className="signin-up">
                 <li className="sign-in" onClick={closeMobileMenu}>
-                    <a href="/">SIGN-IN</a>
+                    // <a href="/">SIGN-IN</a>
                 </li>
                 <li onClick={closeMobileMenu}>
-                    <a href="/" className="signup-btn">
+                    // <a href="/" className="signup-btn">
                         SIGN-UP
                     </a>
                 </li>

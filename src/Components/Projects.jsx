@@ -57,7 +57,7 @@ export default function Projects() {
     // <!-- project section start -->
     <div className="project_main_div">
       {/* <section className="project" id="#projects"> */}
-      <section style={{ position: "absolute", marginTop: "300px" }} id="#projects">
+      <section id="projects">
       </section>
       <div>
         <h1 style={{ fontSize: "40px", marginBottom: "50px" }}>Projects</h1>
@@ -93,10 +93,12 @@ techstacks={p4}"#"{"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"http
             <div className="title">Weather App</div>
             <div className="desc">Individual Project - Built a fully responsive weather app using weather API where you can search for any location</div>
             <div className="stacks">{p1}</div>
+             
+             
             <div className="links">
-            <button>  <a href="https://github.com/mdali-11/weather-app" target="_blank" rel="noreferrer"> Git Repo </a></button>
+              <button>  <a href="https://github.com/mdali-11/weather-app" target="_blank" rel="noreferrer"> Git Repo </a></button>
 
-            <button>  <a href="https://eloquent-concha-9fefda.netlify.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
+              <button>  <a href="https://eloquent-concha-9fefda.netlify.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
 
             </div>
 
@@ -117,12 +119,13 @@ techstacks={p4}"#"{"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"http
 
 
             <div className="links">
-            <button>  <a href="https://github.com/mdali-11/Rentomojo-clone" target="_blank" rel="noreferrer"> Git Repo </a></button>
+              <button>  <a href="https://github.com/mdali-11/Rentomojo-clone" target="_blank" rel="noreferrer"> Git Repo </a></button>
 
-            <button>  <a href="https://roaring-scone-4c2c2e.netlify.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
+              <button>  <a href="https://roaring-scone-4c2c2e.netlify.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
 
-              </div>       
-               </div>
+            </div>
+
+          </div>
 
         </div>
         <div className="card">
@@ -139,10 +142,12 @@ techstacks={p4}"#"{"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"http
 
 
             <div className="links">
-            <button>  <a href="https://github.com/mehfoozkhangithub/tangible-robin-3650/tree/main/team_robin" target="_blank" rel="noreferrer"> Git Repo </a></button>
-            <button>  <a href="https://ali-asos-clone.vercel.app" target="_blank" rel="noreferrer"> Live Site </a></button>
+              <button>  <a href="https://github.com/mehfoozkhangithub/tangible-robin-3650/tree/main/team_robin" target="_blank" rel="noreferrer"> Git Repo </a></button>
+              <button>  <a href="https://ali-asos-clone.vercel.app" target="_blank" rel="noreferrer"> Live Site </a></button>
 
-              </div>        </div>
+            </div>
+
+          </div>
 
         </div>
         <div className="card">
@@ -159,11 +164,13 @@ techstacks={p4}"#"{"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"http
 
 
             <div className="links">
-            <button>  <a href="https://github.com/udhai-20/ultra-rabbit-9293" target="_blank" rel="noreferrer"> Git Repo </a></button>
+              <button>  <a href="https://github.com/udhai-20/ultra-rabbit-9293" target="_blank" rel="noreferrer"> Git Repo </a></button>
 
-            <button>  <a href="https://ali-modesens.vercel.app/" target="_blank" rel="noreferrer">Live Site </a></button>
+              <button>  <a href="https://ali-modesens.vercel.app/" target="_blank" rel="noreferrer">Live Site </a></button>
 
-              </div>        </div>
+            </div>
+
+          </div>
 
         </div>
 

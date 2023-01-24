@@ -8,10 +8,12 @@ import "./About.css"
 import {Type} from "./Type"
 export default function About() {
 
-
+    const resumeOnclick=()=>{
+        window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view","_blank")
+     }
 
     return   <div className="about_div">
-            <section style={{position:"relative",top:"300px"}} id="#about">
+            <section id="about">
         </section>
      <div>
             <h1 className="abt_head">About Me</h1>
@@ -89,7 +91,7 @@ export default function About() {
                             </a>
                         </div>
 
-                        <Button variant="outlined" style={{ background: "black", color: "white", fontWeight: "bolder", fontSize: "15px" }}                       
+                        <Button onClick={resumeOnclick} variant="outlined" style={{ background: "black", color: "white", fontWeight: "bolder", fontSize: "15px" }}                       
 
                         >
                             <a

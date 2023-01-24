@@ -1,21 +1,25 @@
 import "./Navbar.css"
 import React from "react"
 import Button from "@material-ui/core/Button"
-import { useState } from "react"
+// import { useState } from "react"
 // import { Typography } from "@material-ui/core"
 import MobNav from "./MobNav"
+import {Link} from "react-scroll"
 
 
 export default function Navbar() {
-    const [navList, setNavlist] = useState(false)
-    const toggleNavList = (id) => {
-        var element = document.getElementById(id)
-        if (element) {
-            element.scrollIntoView({ left:0,behavior: "smooth", block: 'center' });
-        }
-        setNavlist(!navList);
-    };
+    // const [navList, setNavlist] = useState(false)
+    // const toggleNavList = (id) => {
+    //     var element = document.getElementById(id)
+    //     if (element) {
+    //         element.scrollIntoView({ left:0,behavior: "smooth", block: 'center' });
+    //     }
+    //     setNavlist(!navList);
+    // };
 
+    const resumeOnclick=()=>{
+       window.open("https://drive.google.com/file/d/18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52/view","_blank")
+    }
     return (
         <>
             <div>
@@ -28,48 +32,90 @@ export default function Navbar() {
                             <strong className="name">Md Ali</strong>
                         </div>
                         <div className="nav_options" >
-                            <a href="#home" className="underLine2 hide_on_responsive">
+                            {/* <a href="#home" className="underLine2 hide_on_responsive">
                                 <Button
                                     onClick={() => toggleNavList("#home")}
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     HOME
                                 </Button>
-                            </a>
-                            <a href="#about" className="underLine2 hide_on_responsive">
+                            </a> */}
+                            {/* <a href="#about" className="underLine2 hide_on_responsive">
                                 <Button
                                     onClick={() => toggleNavList("#about")}
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     ABOUT ME                                </Button>
-                            </a>
-                            <a href="#projects" className="underLine2 hide_on_responsive" >
+                            </a> */}
+                            {/* <a href="#projects" className="underLine2 hide_on_responsive" >
                                 <Button
                                     onClick={() => toggleNavList("#projects")}
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     PROJECTS
                                 </Button>
-                            </a>
-                            <a href="#skills" className="underLine2 hide_on_responsive" >
+                            </a> */}
+                               
+                            {/* <a href="#skills" className="underLine2 hide_on_responsive" >
                                 <Button
                                     onClick={() => toggleNavList("#skills")}
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
                                     SKILLS
                                 </Button>
-                            </a>
-                            <a href="#contact" className="underLine2 hide_on_responsive" >
+                            </a> */}
+                              
                                 <Button
-                                    onClick={() => toggleNavList("#contact")}
+                                className="underLine2 hide_on_responsive"
+                                   
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                    CONTACTS
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-100}>HOME</Link>
+                                 
                                 </Button>
-                            </a>
+                                                     
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-100}>ABOUT ME</Link>
+                                 
+                                </Button>
+                    
+                           
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-100}>PROJECTS</Link>
+                                 
+                                </Button>
+                    
+                           
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
+                                 
+                                </Button>
+                    
+                           
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-100}>CONTACTS</Link>
+                                 
+                                </Button>
+                    
                             <a href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
                              style={{ textDecoration: "none", color: "white" }} className="underLine2">
-                                <Button 
+                                <Button onClick={resumeOnclick}
                                     style={{ color: "black", background: "#F2F0F4", fontSize: "15px", fontWeight: "bold" }}
                                     variant="outlined" color="secondary">
                         RESUME
@@ -85,7 +131,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="home">
-                <section style={{position:"absolute",marginTop:"200px"}} id="#home"></section>
+                <section id="home"></section>
                     <div>
                   
                             <div
@@ -120,6 +166,7 @@ export default function Navbar() {
                                     <div
                                       className="resume_btn">
                                         <Button 
+                                        onClick={resumeOnclick}
                                          variant="contained" id="btn">
                                             <a
                       rel="noreferrer"

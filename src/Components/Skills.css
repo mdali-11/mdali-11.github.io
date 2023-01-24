@@ -24,7 +24,7 @@ background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
   
   .techsection > div {
     width: 11%;
-    height: 16vh;
+    height: 15vh;
     max-height: 140px;
     box-shadow: var(--shadow);
     z-index: 1;

@@ -21,7 +21,7 @@ export default function Skills(){
     return (
         <> 
           <div className="skillss">
-            <section style={{position:"absolute", marginTop:"300px"}} id="#skills"></section>
+            <section id="skills"></section>
             <h1 align="center" style={{fontSize:"40px"}}>Skills</h1>
             <div className="techsection">
           <div>
