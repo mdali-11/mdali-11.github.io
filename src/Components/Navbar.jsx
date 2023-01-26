@@ -70,7 +70,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-100}>HOME</Link>
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-75}>HOME</Link>
                                  
                                 </Button>
                                                      
@@ -79,7 +79,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-100}>ABOUT ME</Link>
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-75}>ABOUT ME</Link>
                                  
                                 </Button>
                     
@@ -89,7 +89,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-100}>PROJECTS</Link>
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-75}>PROJECTS</Link>
                                  
                                 </Button>
                     
@@ -99,7 +99,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-75}>SKILLS</Link>
                                  
                                 </Button>
                     
@@ -109,7 +109,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-100}>CONTACTS</Link>
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-75}>CONTACTS</Link>
                                  
                                 </Button>
                     
