@@ -9,7 +9,7 @@ background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
 
 
 
-  .techsection {
+   .techsection {
     width: 100%;
     height: max-content;
     display: flex;
@@ -48,10 +48,11 @@ background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
     border: 1px solid var(--clr-primary);
   }
   
+  
   .techsection > div > svg {
     /* height: 50%;
     width: 50%; */
-    font-size: 8vh;
+    font-size: 10vh;
     color: blue;
   }
   .techsection > div > h5 {

@@ -99,7 +99,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-75}>SKILLS</Link>
+                                        <Link className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
                                  
                                 </Button>
                     

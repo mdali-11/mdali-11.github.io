@@ -64,25 +64,7 @@ export default function Projects() {
       </div>
 
 
-      {/* <div className="project_div">
-            <div className="carousel">
-                <ProjectCard src={"https://github.com/mdali-11/weather-app/raw/main/weather/pics/Screenshot%20(13131).png"} title={"Weather App"} 
-desc1={"Individual Project - Built a fully responsive weather app using weather API where you can search for any location"}
-                  techstacks={p1}"#"{"https://github.com/mdali-11/weather-app"} linkd={"https://eloquent-concha-9fefda.netlify.app/"} />
-                <ProjectCard src={"https://github.com/mdali-11/Rentomojo-clone/raw/main/pics/Screenshot%20(13133).png"} title={"Rentomojo Clone"}
-                desc1={"Collaborative Project - Built a fully responsive a ecommerce website where you can take stuffs on rent for a speciifc period."}
-techstacks={p2}"#"{"https://github.com/mdali-11/Rentomojo-clone"} linkd={"https://roaring-scone-4c2c2e.netlify.app/"} />
-           
-           <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(15423).png?raw=true"} title={"Asos Clone"} 
-desc1={"Collaborative Project - Built a fully responsive ecommerce website where you can buy clothes for your wardrobe"}
-                  techstacks={p3}"#"{"https://github.com/mehfoozkhangithub/tangible-robin-3650/tree/main/team_robin"} linkd={"https://ali-asos-clone.vercel.app"} />
-                <ProjectCard src={"https://github.com/mdali-11/mdali-11.github.io/blob/master/src/pics/Screenshot%20(17324).png?raw=true"} title={"Modesens Clone"}
-                desc1={"Collaborative Project - Built a fully responsive ecommerce website where you buy and get best brands deals on latest fashionwear."}
-techstacks={p4}"#"{"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"https://ali-modesens.vercel.app/"} />
-          
-            </div>
-       
-        </div> */}
+    
       <div className="proj_cont">
         <div className="card">
           <div className="left">
@@ -142,7 +124,7 @@ techstacks={p4}"#"{"https://github.com/udhai-20/ultra-rabbit-9293"} linkd={"http
 
 
             <div className="links">
-              <button>  <a href="https://github.com/mehfoozkhangithub/tangible-robin-3650/tree/main/team_robin" target="_blank" rel="noreferrer"> Git Repo </a></button>
+              <button>  <a href="https://github.com/mehfoozkhangithub/tangible-robin-3650" target="_blank" rel="noreferrer"> Git Repo </a></button>
               <button>  <a href="https://ali-asos-clone.vercel.app" target="_blank" rel="noreferrer"> Live Site </a></button>
 
             </div>

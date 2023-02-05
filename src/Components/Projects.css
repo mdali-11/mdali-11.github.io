@@ -104,20 +104,21 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    transition: transform .4s;
    gap:15px;
-   background-color: black;
+   background-color: #2F3133;
    color: white;
    border-radius: 10px;
+   font-weight: 500;
    /* transition: all 0.2s ease-in; */
    /* border: 3px solid blue; */
 }
 
 .card:hover{
-    transform: scale(1.04);
+    transform: scale(1.03);
 }
-.card:hover{
-    border-color: blue;
-    box-shadow: 0 0 10px red;
-}
+/* .card:hover{ */
+    /* border-color: blue; */
+    /* box-shadow: 0 0 10px red; */
+/* } */
 
 a{
     color: white;
