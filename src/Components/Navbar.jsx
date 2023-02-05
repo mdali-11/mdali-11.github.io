@@ -70,7 +70,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-75}>HOME</Link>
+                                        <Link style={{color:"black" , fontWeight:"bolder"}} className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-75}>HOME</Link>
                                  
                                 </Button>
                                                      
@@ -79,7 +79,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-75}>ABOUT ME</Link>
+                                        <Link style={{color:"black" , fontWeight:"bolder"}} className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-75}>ABOUT ME</Link>
                                  
                                 </Button>
                     
@@ -89,7 +89,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-75}>PROJECTS</Link>
+                                        <Link style={{color:"black" , fontWeight:"bolder"}} className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-75}>PROJECTS</Link>
                                  
                                 </Button>
                     
@@ -99,7 +99,7 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
+                                        <Link style={{color:"black" , fontWeight:"bolder"}} className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
                                  
                                 </Button>
                     
@@ -109,15 +109,15 @@ export default function Navbar() {
                                    
                                     style={{ color: "white", fontSize: "15px" }}
                                     variant="text" color="default">
-                                        <Link className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-75}>CONTACTS</Link>
+                                        <Link style={{color:"black" , fontWeight:"bolder"}} className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-75}>CONTACTS</Link>
                                  
                                 </Button>
                     
                             <a href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
-                             style={{ textDecoration: "none", color: "white" }} className="underLine2">
+                             style={{ textDecoration: "none", color: "white" }}>
                                 <Button onClick={resumeOnclick}
-                                    style={{ color: "black", background: "#F2F0F4", fontSize: "15px", fontWeight: "bold" }}
-                                    variant="outlined" color="secondary">
+                                    style={{ color: "white", background: "teal", fontSize: "15px", fontWeight: "bold", borderRadius:"7px" }}
+                                    variant="outlined" color="default">
                         RESUME
                                 </Button>
                             </a>

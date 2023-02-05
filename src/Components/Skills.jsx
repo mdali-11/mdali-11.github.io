@@ -22,7 +22,7 @@ export default function Skills(){
         <> 
           <div className="skillss">
             <section id="skills"></section>
-            <h1 align="center" style={{fontSize:"40px"}}>Skills</h1>
+            <h1 align="center" style={{color:"white", fontSize:"3rem"}}>Skills</h1>
             <div className="techsection">
           <div>
             <SiJavascript />

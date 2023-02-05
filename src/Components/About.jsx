@@ -26,11 +26,16 @@ export default function About() {
                    
                         <div className="abt_name">
                             <h1 className="about_details">
-                                Hello, I am <span className="about_name">Md Ali</span><span className="typo"><Type /></span>
+                                Hello, I am <span className="about_name">Md Ali</span>
                             </h1>
+                            <h1>
+                            <span className="typo"><Type /></span>
+                            </h1>
+
+                          
                         </div>
-                        <div className="abt_desc">
-                        <Typography className="desc_box"
+                        <div style={{backgroundColor:"#D1D2D6", color:"teal",padding:"15px", fontWeight:"bolder", borderRadius:"35px", textAlign:"left"}} className="abt_desc">
+                        <Typography id="box" style={{fontWeight:"bolder"}} className="desc_box"
                             variant="subtitle1"
                             color="initial">
                             I am from Kolkata, West Bengal.

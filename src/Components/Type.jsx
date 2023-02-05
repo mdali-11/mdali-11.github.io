@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 export const Type = () => {
 
     const style = {
-        color: "blue"
+        color: "#D1D2D6"
     }
     return (
         <>

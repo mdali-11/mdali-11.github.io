@@ -3,11 +3,20 @@
 @import url("https://fonts.googleapis.com/css?family=Kanit");
 @import url("https://fonts.googleapis.com/css?family=Kalam");
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat&display=swap');
 
 
+*{
+  font-family: 'League Spartan', sans-serif;
+}
+
+body{
+  border: none;
+}
 .App {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'League Spartan', sans-serif; */
   background-color: #CDF4D9;
 }
 

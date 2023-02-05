@@ -1,0 +1,92 @@
+     <div className="nav_options" >
+                            {/* <a href="#home" className="underLine2 hide_on_responsive">
+                                <Button
+                                    onClick={() => toggleNavList("#home")}
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                    HOME
+                                </Button>
+                            </a> */}
+                            {/* <a href="#about" className="underLine2 hide_on_responsive">
+                                <Button
+                                    onClick={() => toggleNavList("#about")}
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                    ABOUT ME                                </Button>
+                            </a> */}
+                            {/* <a href="#projects" className="underLine2 hide_on_responsive" >
+                                <Button
+                                    onClick={() => toggleNavList("#projects")}
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                    PROJECTS
+                                </Button>
+                            </a> */}
+                               
+                            {/* <a href="#skills" className="underLine2 hide_on_responsive" >
+                                <Button
+                                    onClick={() => toggleNavList("#skills")}
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                    SKILLS
+                                </Button>
+                            </a> */}
+                              
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link style={{color:"black"}} className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-75}>HOME</Link>
+                                 
+                                </Button>
+                                                     
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link style={{color:"black"}} className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-75}>ABOUT ME</Link>
+                                 
+                                </Button>
+                    
+                           
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link style={{color:"black"}} className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-75}>PROJECTS</Link>
+                                 
+                                </Button>
+                    
+                           
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link style={{color:"black"}} className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
+                                 
+                                </Button>
+                    
+                           
+                                <Button
+                                className="underLine2 hide_on_responsive"
+                                   
+                                    style={{ color: "white", fontSize: "15px" }}
+                                    variant="text" color="default">
+                                        <Link style={{color:"black"}} className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-75}>CONTACTS</Link>
+                                 
+                                </Button>
+                    
+                            <a href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
+                             style={{ textDecoration: "none", color: "white" ,background:"#7B3ED7", borderRadius:"7px" }} className="underLine1">
+                                <Button onClick={resumeOnclick}
+                                style={{color:"white" ,fontSize:"16px"}}
+                                    variant="outlined" color="default">
+                        RESUME
+                                </Button>
+                            </a>
+
+                        </div>

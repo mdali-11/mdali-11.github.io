@@ -18,9 +18,13 @@ img{
     /* border: 5px solid black; */
     /* background-color: black; */
     /* color: whitesmoke; */
-    background-color: #83A1D9;
-    background-image: linear-gradient(to right,#83A1D9 , #FFFFFF);
-background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
+    background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
+background: linear-gradient(163deg, #D1D2D6 70%, teal calc(30% + 1px));
+background: linear-gradient(170deg, #D1D2D6 70%, teal calc(30% + 1px));
+
+
+    /* background-image: linear-gradient(to right,#83A1D9 , #FFFFFF);
+background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF); */
 
 
 /* 
@@ -30,7 +34,7 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 }
 
 .git{
-    width: 40%;
+    width: 60%;
     margin: auto;
     display: grid;
     grid-template-columns:1fr;
@@ -38,6 +42,22 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
     justify-content: center;
     align-items: center;
 }
+
+.stats{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+}
+
+.stats div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 
 
 
@@ -48,6 +68,14 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
     .gitcont{
         margin-top: 500px;
     } */
+
+    .git{
+        width: 80%;
+    }
+
+    .stats{
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -58,6 +86,14 @@ background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
         .gitcont{
             margin-top: 500px;
         } */
+
+        .git{
+            width: 80%;
+        }
+
+        .stats{
+            grid-template-columns: 1fr;
+        }
     
     }
 
