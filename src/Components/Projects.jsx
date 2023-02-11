@@ -60,7 +60,7 @@ export default function Projects() {
       <section id="projects">
       </section>
       <div>
-        <h1 style={{ fontSize: "3rem", marginBottom: "50px" }}>Projects</h1>
+        <h1 style={{ fontSize: "3rem", marginBottom: "50px",color:"White" }}>Projects</h1>
       </div>
 
 

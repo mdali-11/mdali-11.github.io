@@ -302,7 +302,8 @@ display: none;
 
 
 .Top_Area_Responsive{
-    /* margin-top: 70px; */
+    height: 90vh;
+    margin-top: 70px; 
              flex-direction: column;
              align-items: center;
              justify-content: space-evenly;
@@ -348,7 +349,8 @@ display: none;
 }
 
 .Top_Area_Responsive{
-/* margin-top: 70px;  */
+    height: 90vh;
+margin-top: 70px; 
          flex-direction: column;
          align-items: center;
          justify-content: space-evenly;
