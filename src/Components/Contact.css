@@ -182,9 +182,7 @@
       flex-direction: column;
     }
 
-    .contact_containor{
-      height: auto;
-    }
+ 
 
     .contact{
       width: 100%;
@@ -205,9 +203,7 @@
         padding: 0px;
       }
 
-      .contact_containor{
-        height: auto;
-      }
+   
       
     .contact{
       width: 100%;
