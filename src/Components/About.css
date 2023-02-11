@@ -38,7 +38,7 @@ background: linear-gradient(170deg, #807DFE calc(35% + 1px), #fff 35%);
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    margin: 25px 0px;
+    /* margin: 25px 0px; */
   /* border: 5px solid red; */
 }
 
