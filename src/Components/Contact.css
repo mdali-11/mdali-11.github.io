@@ -182,10 +182,16 @@
       flex-direction: column;
     }
 
+    .contact_containor{
+      height: auto;
+    }
+
     .contact{
-      width: 80%;
+      width: 100%;
       grid-template-columns: repeat(1,1fr);
     }
+
+
 }
 
 
@@ -199,9 +205,12 @@
         padding: 0px;
       }
 
+      .contact_containor{
+        height: auto;
+      }
       
     .contact{
-      width: 90%;
+      width: 100%;
      grid-template-columns: repeat(1,1fr);
     }
 

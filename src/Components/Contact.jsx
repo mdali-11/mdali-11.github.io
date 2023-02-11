@@ -17,11 +17,11 @@ export default function Contact() {
 
     return  <div className="contacts">
        <section id="contact" style={{marginTop:"100px"}}></section>
-       <div>
+       <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
       <h1 align="center" style={{color:"#807DFE", fontSize:"3rem"}}>Get in Touch</h1>
         </div>
-      <div className="contact_containor">
     
+      <div className="contact_containor">
       <div className='contact'>    
                <div className='logos'>
                  
