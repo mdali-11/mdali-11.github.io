@@ -114,7 +114,7 @@ export default function Navbar() {
                             <a href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
                                 style={{ textDecoration: "none", color: "white" }}>
                                 <Button onClick={resumeOnclick}
-                                    style={{ color: "white", background: "rgb(71, 71, 211)", fontSize: "15px", fontWeight: "bolder", borderRadius: "7px" }}
+                                    style={{ color: "white", background: "#3E36DA", fontSize: "15px", fontWeight: "bolder", borderRadius: "7px" }}
                                     variant="outlined" color="default">
                                     RESUME
                                 </Button>

@@ -6,6 +6,10 @@
 background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
 background: linear-gradient(170deg, teal calc(30% + 1px), #D1D2D6 72%);
 background: linear-gradient(350deg, #807DFE calc(30% + 1px), #FAFAFA 30%);
+background: linear-gradient(350deg, #5779E5 calc(30% + 1px), #FAFAFA 30%);
+
+
+
 
 
 color: black;
@@ -52,7 +56,9 @@ color: black;
     align-items: center;
     transition: all 0.5s ease 0s;
     border: 2px solid var(--clr-primary);
-    background-color: #FAFAFA;
+    background-color:whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
 
   }
   .techsection > div:hover {

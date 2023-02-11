@@ -18,7 +18,7 @@ export default function Contact() {
     return  <div className="contacts">
        <section id="contact" style={{marginTop:"100px"}}></section>
        <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
-      <h1 align="center" style={{color:"#807DFE", fontSize:"3rem"}}>Get in Touch</h1>
+      <h1 align="center" style={{color:"#5779E5", fontSize:"3rem"}}>Get in Touch</h1>
         </div>
     
       <div className="contact_containor">

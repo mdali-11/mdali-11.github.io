@@ -85,7 +85,7 @@ transform: scale(1.1);
 
 #btn{
  background: #0D0938;   
- background-color: rgb(71, 71, 211);   
+ background-color:#3E36DA;   
  color:white; 
 /* transition: 0.3s ease-in-out; */
  font-weight: bolder;
@@ -154,12 +154,14 @@ transform: scaleX(1);
 transform: scaleX(0.9);
 transform-origin: bottom-left;
 }
+
+
 .underLine2{
-/* color: rgb(112,108,108); */
-color: teal;
+    color: #5779E5;
 transition: 10s;
 display: inline-block;
 position: relative;
+
 }
 .underLine2:after{
 content: "";
@@ -169,7 +171,7 @@ transform: scaleX(0);
 height: 2px;
 bottom: 0;
 left: 0;
-background-color: teal;
+background-color:#5779E5 ;
 transform-origin: botton-right;
 transition: transform 0.25s ease-in-out;
 }
@@ -214,7 +216,7 @@ width: 100%;
 /* background-color: #FFF7FE; */
 background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 /* background: linear-gradient(170deg, #D1D2D6 70%, #00A68E calc(30% + 1px)); */
-background: linear-gradient(170deg, #FAFAFA 70%,  #807DFE calc(30% + 1px));
+background: linear-gradient(170deg, #FAFAFA 70%,  #5779E5 calc(30% + 1px));
 
 
 /* background-color: #E4E6EB; */

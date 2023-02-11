@@ -10,6 +10,7 @@
 /* background-image: linear-gradient(to top,#83A1D9 , #FFFFFF); */
 /* background: linear-gradient(170deg, #00A68E calc(30% + 1px), #D1D2D6 70%); */
 background: linear-gradient(170deg, #807DFE calc(35% + 1px), #fff 35%);
+background: linear-gradient(170deg, #5779E5 calc(35% + 1px), #fff 35%);
 /* background-color: #807DFE; */
 
 
@@ -47,6 +48,7 @@ background: linear-gradient(170deg, #807DFE calc(35% + 1px), #fff 35%);
   /* margin-top: 100px; */
 font-size:3rem;
 color: white;
+margin-bottom: 20px;
 }
 
 .about__contact{
