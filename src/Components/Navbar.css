@@ -85,7 +85,7 @@ transform: scale(1.1);
 
 #btn{
  background: #0D0938;   
- background-color:#3E36DA;   
+ background-color:#5779E5;   
  color:white; 
 /* transition: 0.3s ease-in-out; */
  font-weight: bolder;
@@ -149,7 +149,7 @@ transition: transform 0.75s ease-in-out;
 
 .underLine:hover:after{
 transform: scaleX(1);
-}
+}btn
 .underLine1:hover:after{
 transform: scaleX(0.9);
 transform-origin: bottom-left;

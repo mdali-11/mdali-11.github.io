@@ -59,7 +59,7 @@
 
 .logos a{
   font-size: 2rem;
-  color: blue;
+  color: #5779E5;
 }
 
 
@@ -84,7 +84,7 @@
     transition: all 0.3s ease-in-out 0s;
     /* color: blue; */
     color:black;
-    border: 3px solid #807DFE;
+    border: 3px solid #5779E5;
     padding: 5px;
     border-radius: 20%;
   }
@@ -104,7 +104,7 @@
 .mailNumber .email {
     font-size: 1.7em;
     transition: all 0.5s ease-in-out 0s;
-    color: #807DFE;
+    color: #5779E5;
   }
   .mailNumber .phone{
     font-size: 1.5em;

@@ -114,7 +114,7 @@ export default function Navbar() {
                             <a href="https://drive.google.com/uc?export=download&id=18QWx9vFvtc65I3yXhY3_WCdL2sCPJm52"
                                 style={{ textDecoration: "none", color: "white" }}>
                                 <Button onClick={resumeOnclick}
-                                    style={{ color: "white", background: "#3E36DA", fontSize: "15px", fontWeight: "bolder", borderRadius: "7px" }}
+                                    style={{ color: "white", background: "#5779E5", fontSize: "15px", fontWeight: "bolder", borderRadius: "7px" }}
                                     variant="outlined" color="default">
                                     RESUME
                                 </Button>
@@ -138,7 +138,7 @@ export default function Navbar() {
                 
 
                         <div>
-                            <p style={{fontSize:"3rem"}}>Hi, I'm <span style={{fontWeight:"bold", color:"blue"}}>Md Ali</span>
+                            <p style={{fontSize:"3rem"}}>Hi, I'm <span style={{fontWeight:"bold", color:"#5779E5"}}>Md Ali</span>
                             <br />
                         <span style={{fontSize:"2rem", fontWeight:"500"}}>  Full Stack Web Developer</span>
                           </p>
