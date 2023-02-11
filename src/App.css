@@ -5,10 +5,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200&family=Rubik&display=swap');
 
 
 *{
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{

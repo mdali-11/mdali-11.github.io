@@ -1,16 +1,16 @@
 .about_div{
   width:100%;
-  height: auto;
+  height: max-content;
   display:flex;
   flex-direction:column;
   justify-content:space-around;
   align-items:center;
-
-  padding: 60px 0px;
   background-color: #E4E6EB;
-background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
+  padding-top: 50px;
+/* background-image: linear-gradient(to top,#83A1D9 , #FFFFFF); */
 /* background: linear-gradient(170deg, #00A68E calc(30% + 1px), #D1D2D6 70%); */
-background: linear-gradient(170deg, teal calc(30% + 1px), #D1D2D6 70%);
+background: linear-gradient(170deg, #807DFE calc(35% + 1px), #fff 35%);
+/* background-color: #807DFE; */
 
 
 
@@ -59,12 +59,14 @@ color: white;
 
 .about__contact a{
   /* background-color: blue; */
-  color: teal;
+  color: black;
+  transition: .2s;
 
 
 }
 .about__contact a:hover{
   color: black;
+  transform: scale(2);
 }
 
 
@@ -155,6 +157,8 @@ color: white;
     .about_div{
       width: 100%;
      flex-direction: column;
+background: linear-gradient(170deg, #807DFE calc(30% + 1px), #fff 30%);
+
     /* margin-bottom: 1000px; */
     /* border: 15px solid red; */
       }
@@ -187,6 +191,8 @@ color: white;
          display: flex;
          flex-direction: column;
         align-items: center;
+background: linear-gradient(170deg, #807DFE calc(30% + 1px), #fff 30%);
+
         /* border: 15px solid red; */
           }
 

@@ -5,6 +5,9 @@
     padding: 100px 0px;
 background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
 background: linear-gradient(170deg, teal calc(30% + 1px), #D1D2D6 72%);
+background: linear-gradient(350deg, #807DFE calc(30% + 1px), #FAFAFA 30%);
+
+
 color: black;
 
 /* border: 5px solid red; */
@@ -13,37 +16,49 @@ color: black;
 
 
    .techsection {
-    width: 100%;
+    width:1000px;
+    margin: auto;
     height: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 35px;
+    justify-content: space-between;align-items: center;
     text-align: center;
     /* background-color: var(--clr-bg); */
     /* height: 60vh; */
     /* max-height: 400px; */
   }
+  .techsection img{
+    width: 50%;
+    margin: auto;
+  }
   
   .techsection > div {
-    width: 11%;
+    /* width: 11%;
     height: 15vh;
-    max-height: 140px;
+    max-height: 140px; */
+    /* float: left; */
+    width: 90%;
+    margin: auto;
+    height: 100%;
     box-shadow: var(--shadow);
     z-index: 1;
     border-radius: 20px;
-    margin: 2.5%;
-    padding-top: 10px;
-    float: left;
+    /* margin: 2.5%; */
+    padding: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease 0s;
     border: 2px solid var(--clr-primary);
+    background-color: #FAFAFA;
+
   }
   .techsection > div:hover {
     background-color: var(--clr-bg);
+    background-color: rgb(37, 37, 53);
+    color: white;
     overflow: hidden;
     transform: scale(1.08);
     box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
@@ -55,28 +70,50 @@ color: black;
   .techsection > div > svg {
     /* height: 50%;
     width: 50%; */
-    font-size: 8vh;
+    /* font-size: 8vh; */
     color: black;
   }
   .techsection > div > h5 {
-    position: relative;
-    top: 8px;
+    /* position: relative;
+    top: 8px; */
     background-color: transparent;
   }
   
 
+
      
-@media all and (min-width: 480px) and (max-width: 780px) {
+@media all and (min-width: 780px) and (max-width: 1080px) {
+  
+   .techsection{
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+   }
   
 
-  
-
-  .techsection > div {
+  /* .techsection > div {
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;
     height: 18vh;
+  } */
+}
+
+@media all and (min-width: 480px) and (max-width: 780px) {
+  
+  .techsection{
+   width: 80%;
+   margin: auto;
+   grid-template-columns: repeat(3,1fr);
   }
+ 
+
+ /* .techsection > div {
+   width: 40%;
+   margin-right: 5%;
+   margin-bottom: 2%;
+   height: 18vh;
+ } */
 }
 
 
@@ -84,14 +121,21 @@ color: black;
   
   @media all and (min-width: 321px) and (max-width: 480px) {
 
+    .techsection{
+      width: 80%;
+      margin: auto;
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+     }
 
+    
 
-    .techsection > div {
+    /* .techsection > div {
       width: 40%;
       margin-right: 5%;
       margin-bottom: 2%;
       height: 18vh;
-    }
+    } */
   
   }
     

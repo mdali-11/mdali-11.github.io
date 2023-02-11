@@ -9,7 +9,9 @@
     background-color: #83A1D9;
     background-image: linear-gradient(to right,#FFFFFF,#83A1D9 );
 background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
-background: linear-gradient(170deg, #D1D2D6 72%, teal calc(30% + 1px));
+/* background: linear-gradient(170deg, #D1D2D6 72%, teal calc(30% + 1px)); */
+background: linear-gradient(170deg, #807DFE calc(30% + 1px), #FAFAFA 30%);
+
 
 
 
@@ -97,7 +99,7 @@ background: linear-gradient(170deg, #D1D2D6 72%, teal calc(30% + 1px));
 .card{
     width: 310px;
     margin: auto;
-   height: 380px;
+   height: 385px;
     padding: 15px;
     border: 1px solid black;
    display: flex;
@@ -107,10 +109,10 @@ background: linear-gradient(170deg, #D1D2D6 72%, teal calc(30% + 1px));
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    transition: transform .4s;
    gap:15px;
-   background-color:  black;
-   border:2px solid teal;
+   background-color:  rgb(33, 36, 67);
+   background-color: black;
    color: white;
-   border-radius: 10px;
+   border-radius: 15px;
    font-weight: 500;
    /* transition: all 0.2s ease-in; */
    /* border: 3px solid blue; */
@@ -178,9 +180,9 @@ a:hover{
     /* margin: 0px 5px;  */
     transition: transform .2s;
     cursor: pointer;   
-    background-color: teal;
+    background-color:rgb(222, 49, 104);
     color: white;
-    padding:5px 15px;
+    padding:7px 15px;
     border: none;
     font-weight: bold;
     border-radius: 7px;
@@ -289,7 +291,7 @@ a:hover{
     .card{
         width: 80%;
         margin: auto;
-        height: max-content;
+        height: 380px;
     }
 
     .right{

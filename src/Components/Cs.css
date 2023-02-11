@@ -1,0 +1,35 @@
+
+
+
+.contact{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logos{
+    width: 80%;
+    padding: 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 10px;
+}
+
+.logos>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.logos a{
+    font-size: 2rem;
+    color: blue;
+}

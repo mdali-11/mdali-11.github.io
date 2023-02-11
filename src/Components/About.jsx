@@ -34,8 +34,8 @@ export default function About() {
 
                           
                         </div>
-                        <div style={{backgroundColor:"#D1D2D6", color:"teal",padding:"15px", fontWeight:"bolder", borderRadius:"35px", textAlign:"left"}} className="abt_desc">
-                        <Typography id="box" style={{fontWeight:"bolder"}} className="desc_box"
+                        <div style={{backgroundColor:"#fff", color:"black",padding:"15px", fontWeight:"bolder", borderRadius:"35px", textAlign:"left"}} className="abt_desc">
+                        <Typography id="box" style={{fontWeight:"light"}} className="desc_box"
                             variant="subtitle1"
                             color="initial">
                             I am from Kolkata, West Bengal.

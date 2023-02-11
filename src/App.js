@@ -19,6 +19,7 @@ import Contact from './Components/Contact';
 
 
 
+
 function App() {
 
   useEffect(()=>{
@@ -27,10 +28,11 @@ function App() {
   return <div id="app">
   <Navbar />
   <About />
-  <Projects />
   <Skills />
+  <Projects />
   <Github />
   <Contact />
+  
 
     </div>
 }

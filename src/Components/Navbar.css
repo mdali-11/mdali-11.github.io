@@ -21,6 +21,8 @@
     left: 0;
     z-index: 5;
     background-color:#D1D2D6;
+    background-color: #fff;
+    background-color: transparent;
     color: black;
 }
 .TopArea{
@@ -74,12 +76,7 @@ font-weight: bold;
     cursor: pointer
 }
 
-.resume_btn{
-display: flex;
-justify-content: flex-start;
-align-items: center;
 
-}
 
 #btn:hover{
 transform: scale(1.1);
@@ -87,7 +84,8 @@ transform: scale(1.1);
 }
 
 #btn{
- background: teal;      
+ background: #0D0938;   
+ background-color: rgb(71, 71, 211);   
  color:white; 
 /* transition: 0.3s ease-in-out; */
  font-weight: bolder;
@@ -194,9 +192,7 @@ margin: auto;
 
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 
 .Top_Area_Responsive{
 width: 80%;
@@ -218,7 +214,7 @@ width: 100%;
 /* background-color: #FFF7FE; */
 background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
 /* background: linear-gradient(170deg, #D1D2D6 70%, #00A68E calc(30% + 1px)); */
-background: linear-gradient(170deg, #D1D2D6 70%,  teal calc(30% + 1px));
+background: linear-gradient(170deg, #FAFAFA 70%,  #807DFE calc(30% + 1px));
 
 
 /* background-color: #E4E6EB; */
@@ -350,7 +346,7 @@ display: none;
 }
 
 .Top_Area_Responsive{
-margin-top: 70px;
+margin-top: 70px; 
          flex-direction: column;
          align-items: center;
          justify-content: space-evenly;

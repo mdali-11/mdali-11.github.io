@@ -6,8 +6,8 @@
   z-index: 5;
   display: flex;
   /* background: linear-gradient(#6616fc, #f394d3); */
-  background-color: black;
-  color: white;
+  background-color: #FAFAFA;
+  color: black;
   justify-content: space-between;
   align-items: center;
   height: 70px;
