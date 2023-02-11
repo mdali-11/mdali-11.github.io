@@ -45,15 +45,16 @@ export default function MobNav() {
 
                     </li>
                     <li className="option" >
-                        {/* <a href="#projects">PROJECTS</a> */}
-                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-100}>PROJECTS</Link>
-
-                    </li>
-                    <li className="option" >
                         {/* <a href="#skills">SKILLS</a> */}
                         <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
 
                     </li>
+                    <li className="option" >
+                        {/* <a href="#projects">PROJECTS</a> */}
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-100}>PROJECTS</Link>
+
+                    </li>
+
                     <li className="option" >
                         {/* <a href="#contact">CONTACT</a> */}
                         <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-100}>CONTACT</Link>
