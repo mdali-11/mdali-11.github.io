@@ -167,7 +167,7 @@
 
   }
 
-  @media all and (min-width: 480px) and (max-width: 1000px) {
+  @media all and (min-width: 480px) and (max-width: 768px) {
 
  
 
@@ -181,8 +181,6 @@
     .mailNumber{
       flex-direction: column;
     }
-
- 
 
     .contact{
       width: 100%;
@@ -202,6 +200,9 @@
       .logos{
         padding: 0px;
       }
+
+      
+
 
    
       
