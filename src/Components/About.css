@@ -159,7 +159,7 @@ margin-bottom: 20px;
     .about_div{
       width: 100%;
      flex-direction: column;
-background: linear-gradient(170deg, #807DFE calc(30% + 1px), #fff 30%);
+background: linear-gradient(170deg, #5779E5 calc(30% + 1px), #fff 30%);
 
     /* margin-bottom: 1000px; */
     /* border: 15px solid red; */
@@ -193,7 +193,7 @@ background: linear-gradient(170deg, #807DFE calc(30% + 1px), #fff 30%);
          display: flex;
          flex-direction: column;
         align-items: center;
-background: linear-gradient(170deg, #807DFE calc(30% + 1px), #fff 30%);
+background: linear-gradient(170deg, #5779E5 calc(30% + 1px), #fff 30%);
 
         /* border: 15px solid red; */
           }
