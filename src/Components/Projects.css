@@ -113,18 +113,16 @@ background: linear-gradient(170deg, #5779E5 calc(30% + 1px), #FAFAFA 30%);
    background-color: black;
    color: white;
    border-radius: 15px;
-   font-weight: 500;
-   /* transition: all 0.2s ease-in; */
-   /* border: 3px solid blue; */
+   will-change: transform;
+transform: perspective(1px) translateZ(0);
+backface-visibility: hidden;
+   /* -webkit-font-smoothing: subpixel-antialiased; */
 }
 
 .card:hover{
     transform: scale(1.03);
 }
-/* .card:hover{ */
-    /* border-color: blue; */
-    /* box-shadow: 0 0 10px red; */
-/* } */
+
 
 a{
     color: white;
