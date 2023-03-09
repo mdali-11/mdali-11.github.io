@@ -155,6 +155,29 @@ export default function Projects() {
           </div>
 
         </div>
+        <div className="card">
+          <div className="left">
+            <img src="https://user-images.githubusercontent.com/104342116/213980455-c8c6e7a5-3e17-4e40-bee0-0e211a835752.png" alt="ss" />
+
+          </div>
+          <div className="right">
+
+            <div className="title">Nykaa Clone</div>
+            <div className="desc">Collaborative Project - Built a fully responsive ecommerce website where you can buy and get best deals from cosmetics brands.</div>
+            <div className="stacks">{p4}</div>
+
+
+
+            <div className="links">
+              <button>  <a href="https://github.com/Saurav02022/Nykaa-Clone" target="_blank" rel="noreferrer"> Git Repo </a></button>
+
+              <button>  <a href="https://frontend-three-coral.vercel.app/" target="_blank" rel="noreferrer">Live Site </a></button>
+
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
     </div>
