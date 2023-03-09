@@ -40,7 +40,8 @@ export default function About() {
                             color="initial">
                             I am from Kolkata, West Bengal.
                             Aspiring full stack web developer, having problem-solving ability and proficiency in MERN Stack. A quick learner and always curious to learn new things.
-                            I have completed my graduation in Bcom (Account. Honours) from Umes Chandra College, Calcutta University. I have also done a digital marketing course from NIHT. Then I completed my full stack web development bootcamp from Masai School.
+                        Completed my graduation in Bcom (Account. Honours) from Umes Chandra College, Calcutta University, I have also taken a digital marketing course at NIHT. Then I completed my full stack web development course from Masai School. 
+                            {/* I have completed my graduation in Bcom (Account. Honours) from Umes Chandra College, Calcutta University. I have also done a digital marketing course from NIHT. Then I completed my full stack web development course from Masai School. */}
                             <br />
 
                         </Typography>
