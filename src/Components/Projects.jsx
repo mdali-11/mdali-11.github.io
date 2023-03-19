@@ -103,7 +103,7 @@ export default function Projects() {
             <div className="links">
               <button>  <a href="https://github.com/mdali-11/Rentomojo-clone" target="_blank" rel="noreferrer"> Git Repo </a></button>
 
-              <button>  <a href="https://roaring-scone-4c2c2e.netlify.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
+              <button>  <a href="https://rentomojo-clone-black.vercel.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
 
             </div>
 
