@@ -60,22 +60,25 @@
   justify-content: flex-start;
   /* padding-top: 50px; */
   /* gap: 50px; */
-  background-color:whitesmoke;
+  background-color:#FAFAFA;
   left: 0;
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
-  align-content: center;
+  align-content: left;
   padding-left: 0px;
 }
 
 
 .menu_items{
-  height:80%;
+  height:fit-content;
+  font-size: 25px;
   /* padding-top: 50px; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  gap: 25px;
+  margin-top: 20px;
 }
 
 
@@ -86,7 +89,7 @@
 .option {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 20px;
   /* justify-content: center; */
   /* border: 1px solid black; */
   /* border-bottom: 1px solid black; */
