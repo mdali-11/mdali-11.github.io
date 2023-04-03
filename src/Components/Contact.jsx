@@ -9,22 +9,22 @@ import "./Contact.css";
 import { VscGithub, } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 // import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaLinkedin, FaWhatsapp , FaLocationArrow } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp, FaLocationArrow } from "react-icons/fa";
 
 
 
 export default function Contact() {
 
-    return  <div className="contacts">
-       <section id="contact" style={{marginTop:"100px"}}></section>
-       <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
-      <h1 align="center" style={{color:"#5779E5", fontSize:"3rem"}}>Get in Touch</h1>
+    return <div className="contacts">
+        <section id="contact" style={{ marginTop: "100px" }}></section>
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+            <h1 align="center" style={{ color: "#5779E5", fontSize: "2.5rem" }}>Get in Touch</h1>
         </div>
-    
-      <div className="contact_containor">
-      <div className='contact'>    
-               <div className='logos'>
-                 
+
+        <div className="contact_containor">
+            <div className='contact'>
+                <div className='logos'>
+
                     <div>
                         <span>
                             <a
@@ -43,14 +43,14 @@ export default function Contact() {
 
                     <div>
                         <span>
-                        <a
-                            href="https://www.linkedin.com/in/md-ali11/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FaLinkedin className="linkedin" />
-                        </a>
-                           
+                            <a
+                                href="https://www.linkedin.com/in/md-ali11/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaLinkedin className="linkedin" />
+                            </a>
+
                         </span>
                         <span>
                             <p>Linkedin</p>
@@ -60,14 +60,14 @@ export default function Contact() {
 
                     <div>
                         <span>
-                        <a
-                            href="https://github.com/mdali-11/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <VscGithub className="github" />
-                        </a>
-                           
+                            <a
+                                href="https://github.com/mdali-11/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <VscGithub className="github" />
+                            </a>
+
                         </span>
                         <span>
                             <p>Github</p>
@@ -77,14 +77,14 @@ export default function Contact() {
 
                     <div>
                         <span>
-                        <a
-                            href="mailto:mdali91935@gmail.com"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <CgMail className="email" />
-                        </a>
-                           
+                            <a
+                                href="mailto:mdali91935@gmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <CgMail className="email" />
+                            </a>
+
                         </span>
                         <span>
                             <p>mdali91935@gmail.com</p>
@@ -94,10 +94,10 @@ export default function Contact() {
 
                     <div>
                         <span>
-                        <a href="tel:+919007977270" target="_blank" rel="noreferrer">
-                            <FaLocationArrow className="phone" />
-                        </a>
-                           
+                            <a href="tel:+919007977270" target="_blank" rel="noreferrer">
+                                <FaLocationArrow className="phone" />
+                            </a>
+
                         </span>
                         <span>
                             <p>Howrah, West Bengal</p>
@@ -112,14 +112,14 @@ export default function Contact() {
                 </div>
             </div>
 
-      </div>
-   
-          
-         
-            </div>
-        
-       
-  
+        </div>
+
+
+
+    </div>
+
+
+
 }
 
 

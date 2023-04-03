@@ -36,28 +36,28 @@ export default function MobNav() {
                     <div className="menu_items">
                  <li className="option" >
                         {/* <a href="#about">HOME</a> */}
-                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-100}>HOME</Link>
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="home" duration={600} offset={-100}>Home</Link>
 
                     </li>
                     <li className="option" >
                         {/* <a href="#about">ABOUT ME</a> */}
-                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-100}>ABOUT ME</Link>
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="about" duration={600} offset={-100}>About Me</Link>
 
                     </li>
                     <li className="option" >
                         {/* <a href="#skills">SKILLS</a> */}
-                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="skills" duration={600} offset={-100}>Skills</Link>
 
                     </li>
                     <li className="option" >
                         {/* <a href="#projects">PROJECTS</a> */}
-                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-100}>PROJECTS</Link>
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="projects" duration={600} offset={-100}>Projects</Link>
 
                     </li>
 
                     <li className="option" >
                         {/* <a href="#contact">CONTACT</a> */}
-                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-100}>CONTACT</Link>
+                        <Link onClick={closeMobileMenu} className="linkscroll"  activeClass="active" smooth spy to="contact" duration={600} offset={-100}>Contact</Link>
 
                     </li>
                     <li className="option mobile-option" >

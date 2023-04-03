@@ -9,7 +9,7 @@ export default function Skills(){
         <> 
           <div className="skillss">
             <section id="skills"></section>
-            <h1 align="center" style={{color:"black", fontSize:"3rem"}}>Skills</h1>
+            <h1 align="center" style={{color:"black", fontSize:"2.5rem"}}>Skills</h1>
             <div className="techsection">
           <div>
             {/* <SiJavascript /> */}

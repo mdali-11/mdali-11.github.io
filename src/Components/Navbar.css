@@ -87,6 +87,7 @@ transform: scale(1.1);
  background: #0D0938;   
  background-color:#5779E5;   
  color:white; 
+ margin-top: -45px;
 /* transition: 0.3s ease-in-out; */
  font-weight: bolder;
   font-size: 15px;
