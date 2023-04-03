@@ -53,7 +53,7 @@ margin-bottom: 20px;
 
 .about__contact{
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   margin: auto;
 
@@ -73,7 +73,9 @@ margin-bottom: 20px;
 
 
 .about_details{
-    font-size: 45px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: -10px;
 }
 .typo_div{
     display: flex;
@@ -186,7 +188,7 @@ background: linear-gradient(170deg, #5779E5 calc(30% + 1px), #fff 30%);
     }
     
     
-    @media all and (min-width: 321px) and (max-width: 480px) {
+    @media all and (min-width: 280px) and (max-width: 480px) {
 
       .about_div{
         width: 100%;

@@ -301,3 +301,37 @@ a:hover{
     }
 
 }
+
+
+@media all and (min-width: 280px) and (max-width: 321px) {
+
+    .proj_cont{
+        width: 95%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    /* .desc{
+        font-size: 12px;
+    } */
+    /* .card{
+        width:80%;
+        block-size: auto; */
+        /* height: max-content; */
+    /* } */
+
+    .card{
+        width: 80%;
+        margin: auto;
+        height: max-content;
+    }
+
+    .right{
+        gap: 15px;
+    }
+
+    .tool{
+        font-size: 10px;
+    }
+
+}

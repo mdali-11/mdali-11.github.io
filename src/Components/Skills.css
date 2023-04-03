@@ -125,7 +125,7 @@ color: black;
 
   
   
-  @media all and (min-width: 321px) and (max-width: 480px) {
+  @media all and (min-width: 280px) and (max-width: 480px) {
 
     .techsection{
       width: 80%;
@@ -135,7 +135,7 @@ color: black;
      }
 
     
-
+     
     /* .techsection > div {
       width: 40%;
       margin-right: 5%;

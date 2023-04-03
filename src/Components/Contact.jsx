@@ -21,7 +21,7 @@ export default function Contact() {
             <h1 align="center" style={{ color: "#5779E5", fontSize: "2.5rem" }}>Get in Touch</h1>
         </div>
 
-        <div className="contact_containor">
+      
             <div className='contact'>
                 <div className='logos'>
 
@@ -110,7 +110,7 @@ export default function Contact() {
                 <div>
                     <img src="https://meesahil7.github.io/static/media/mail.1db650d351729a0f17b4e3104e6a7b7a.svg" alt="" />
                 </div>
-            </div>
+        
 
         </div>
 

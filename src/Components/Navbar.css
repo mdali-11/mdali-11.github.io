@@ -271,7 +271,7 @@ display: none;
 
 
 
-@media all and (min-width: 481px) and (max-width: 1000px) {
+@media all and (min-width: 481px) and (max-width:720px) {
 .TopArea{
     display: none;
 }
@@ -323,7 +323,7 @@ display: none;
 
 }
 
-@media all and (min-width: 321px) and (max-width: 480px) {
+@media all and (min-width: 280px) and (max-width: 480px) {
 .TopArea{
     display: none;
 }

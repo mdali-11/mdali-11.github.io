@@ -10,25 +10,19 @@
 
 }
 
-.contact_containor{
-  width: 75%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 
 
 
 .contact{
-  width: 100%;
+  width:75%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 
@@ -189,7 +183,7 @@
     }
 
     .contact{
-      width: 100%;
+      width: 80%;
       grid-template-columns: repeat(1,1fr);
     }
 
@@ -199,7 +193,7 @@
 
     
     
-    @media all and (min-width: 321px) and (max-width: 480px) {
+    @media all and (min-width: 280px) and (max-width: 480px) {
 
      
 
@@ -213,7 +207,7 @@
    
       
     .contact{
-      width: 100%;
+      width: 80%;
      grid-template-columns: repeat(1,1fr);
     }
 
