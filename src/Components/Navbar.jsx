@@ -138,7 +138,7 @@ export default function Navbar() {
                 
 
                         <div>
-                            <p style={{fontSize:"3rem"}}>Hi, I'm <span style={{fontWeight:"bold", color:"#5779E5"}}>Md Ali</span>
+                            <p style={{fontSize:"3rem"}}>Hi, I'm <span style={{fontSize:"3rem",fontWeight:"bold", color:"#5779E5"}}>Md Ali</span>
                             <br />
                         <span style={{fontSize:"2rem", fontWeight:"500"}}>  Full Stack Web Developer</span>
                           </p>
