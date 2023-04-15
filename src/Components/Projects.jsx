@@ -171,7 +171,7 @@ export default function Projects() {
             <div className="links">
               <button>  <a href="https://github.com/Saurav02022/Nykaa-Clone" target="_blank" rel="noreferrer"> Git Repo </a></button>
 
-              <button>  <a href="https://frontend-three-coral.vercel.app/" target="_blank" rel="noreferrer">Live Site </a></button>
+              <button>  <a href="https://nykaaclone.saurav02022.vercel.app/" target="_blank" rel="noreferrer">Live Site </a></button>
 
             </div>
 
